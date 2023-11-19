@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item10" title="Ethical issues are distinguished from political issues in research in that:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Ethical issues are distinguished from political issues in research in that:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>ethics deals more with the substance of research.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>politics deals more with the methods of research.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>there are no formal codes of accepted political conduct, whereas there are codes of ethical conduct.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>ethics deals more with the use of research.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>ethical issues and political issues are the same in the research process.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item3" title="Which of the following guidelines is FALSE for reporting on analyses?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following guidelines is FALSE for reporting on analyses?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The presentation of data analyses should provide a maximum of detail without being cluttered.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>If you're using quantitative data, present them so the reader can recompute them.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>If you're using quantitative data, the reader needs to be able to recompute percentages in the same direction that you used in your presentation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>If you're using quantitative data, the reader does not need to be able to recompute percentages in the direction opposite from what you used in your presentation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>If there is a significant amount of quantitative data, you may choose to include them in an appendix.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

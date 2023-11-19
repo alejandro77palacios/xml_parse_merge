@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item10" title="Dr. Chang is conducting a research study of undergraduate students at her college. She wants to ensure an equal number of students from each grade level, so she uses the list of all students provided by the registrar’s office. From each list, she randomly " adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Dr. Chang is conducting a research study of undergraduate students at her college. She wants to ensure an equal number of students from each grade level, so she uses the list of all students provided by the registrar’s office. From each list, she randomly selects 50 students from each group. What strategy of sampling is Dr. Chang using?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Simple random sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Quota sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Cluster sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Stratified sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Accidental sampling</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

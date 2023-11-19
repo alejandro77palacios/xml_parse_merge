@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item11" title="When a researcher begins with a specific case or participant, and then applies those findings to subsequent participants in order to develop a theory, he or she is:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>When a researcher begins with a specific case or participant, and then applies those findings to subsequent participants in order to develop a theory, he or she is:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>using deductive reasoning and nomothetic reasoning.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>applying cross-case analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>using grounded theory and nomothetic reasoning.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>using a cross-case method approach and grounded theory.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>using deductive reasoning and semiotics.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

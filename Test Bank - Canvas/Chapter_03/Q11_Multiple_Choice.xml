@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item11" title="Professor Smith decides to track the dating behaviors of college students throughout their college careers. She decides to begin her research using her introductory class. After explaining the study, she assures students that their responses will be kept c" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Professor Smith decides to track the dating behaviors of college students throughout their college careers. She decides to begin her research using her introductory class. After explaining the study, she assures students that their responses will be kept confidential. The students complete her survey during class. Her research most clearly impinges on:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>deception.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>analysis and reporting of the data.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>voluntary participation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>the value placed on anonymity.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>value-free reports of the data.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

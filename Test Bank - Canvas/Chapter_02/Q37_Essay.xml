@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item37" title="Select a topic (e.g., gun control, domestic violence, terrorism) and describe how a researcher might approach that topic using two of the following paradigms: conflict, symbolic interactionism, ethnomethodology, structural functionalism, feminist paradigms" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string" />
+  <itemBody>
+    <extendedTextInteraction responseIdentifier="RESPONSE" expectedLength="500">
+      <prompt>
+        <span>Select a topic (e.g., gun control, domestic violence, terrorism) and describe how a researcher might approach that topic using two of the following paradigms: conflict, symbolic interactionism, ethnomethodology, structural functionalism, feminist paradigms, and/or critical race theory.</span>
+      </prompt>
+    </extendedTextInteraction>
+  </itemBody>
+</assessmentItem>

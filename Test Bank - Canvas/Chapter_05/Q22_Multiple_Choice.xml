@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item22" title="Jeremy can't decide whether he should ask people whether they &quot;very strongly agree,&quot; &quot;agree,&quot; &quot;disagree,&quot; &quot;very strongly disagree,&quot; or simply &quot;agree&quot; or &quot;disagree&quot; with statements about the war in Iraq. Jeremy is dealing with the problem of:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Jeremy can't decide whether he should ask people whether they "very strongly agree," "agree," "disagree," "very strongly disagree," or simply "agree" or "disagree" with statements about the war in Iraq. Jeremy is dealing with the problem of:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>whether to use single or multiple indicators of a concept.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>the range of variation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>whether to use a ratio or ordinal measurement.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>whether to use a ratio or interval measurement.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>whether to use single or multiple dimensions.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

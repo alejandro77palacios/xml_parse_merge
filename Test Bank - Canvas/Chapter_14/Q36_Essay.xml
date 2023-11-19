@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item36" title="A random sample of sociology majors at the University of Methods were asked a series of questions about their major advisor. Interpret their answers to the following question: &amp;quot;My advisor encourages me to see him/her.&amp;quot;" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string" />
+  <itemBody>
+    <extendedTextInteraction responseIdentifier="RESPONSE" expectedLength="500">
+      <prompt>
+        <span>A random sample of sociology majors at the University of Methods were asked a series of questions about their major advisor. Interpret their answers to the following question: "My advisor encourages me to see him/her."</span>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <p>Level of Agreement</p>
+              </td>
+              <td>
+                <p>f</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Strongly agree</p>
+              </td>
+              <td>
+                <p>19</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Agree</p>
+              </td>
+              <td>
+                <p>29</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Undecided</p>
+              </td>
+              <td>
+                <p>34</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Disagree</p>
+              </td>
+              <td>
+                <p>13</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Strongly disagree</p>
+              </td>
+              <td>
+                <p>14</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>No answer</p>
+              </td>
+              <td>
+                <p>44</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <br />
+        </p>
+      </prompt>
+    </extendedTextInteraction>
+  </itemBody>
+</assessmentItem>

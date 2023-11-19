@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item7" title="The College of Arts and Science at Delta University has nine departments. The number of faculty in each department is shown below. What is the mean number of faculty in the College of Arts and Science?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>The College of Arts and Science at Delta University has nine departments. The number of faculty in each department is shown below. What is the mean number of faculty in the College of Arts and Science?</span>
+        <p>​</p>
+        <p>
+          <span>8, 12, 9, 15, 17, 11, 13, 14, 7</span>
+        </p>
+        <p>
+          <span> </span>
+        </p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>12</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>17</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>10.7</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>11.8</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>There is no mean for these data</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

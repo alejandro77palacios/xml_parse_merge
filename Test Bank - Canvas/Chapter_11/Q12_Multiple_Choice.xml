@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="An example of unobtrusive data collection is:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>An example of unobtrusive data collection is:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>an interview with college freshmen to determine why they selected a particular school.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>a laboratory experiment designed to learn whether people really prefer Pepsi or Coke.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>a mailed survey designed to discern students' attitudes toward a planned change in the school's calendar.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>a researcher who joins a fraternity to understand its rituals.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>examining the wear on the tires of squad cars to determine the extent of police patrols.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item39" title="Regression analysis is an integral part of inferential statistics. Using real-life examples, explain when it would be appropriate to use each of the following types of regression analysis:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string" />
+  <itemBody>
+    <extendedTextInteraction responseIdentifier="RESPONSE" expectedLength="500">
+      <prompt>
+        <span>Regression analysis is an integral part of inferential statistics. Using real-life examples, explain when it would be appropriate to use each of the following types of regression analysis:</span>
+        <p>​</p>
+        <p>a) linear regression</p>
+        <p>b) multiple regression</p>
+        <p>c) partial regression</p>
+        <p>d) curvilinear regression</p>
+      </prompt>
+    </extendedTextInteraction>
+  </itemBody>
+</assessmentItem>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item10" title="Jeremy was born in 1948 and grew up during the 1960s. He was sent to Vietnam in 1967. In Vietnam he was horrified by what he saw, and when he returned home he suffered sleepless nights and nightmares. He began to work at a bank but often fell asleep during" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Jeremy was born in 1948 and grew up during the 1960s. He was sent to Vietnam in 1967. In Vietnam he was horrified by what he saw, and when he returned home he suffered sleepless nights and nightmares. He began to work at a bank but often fell asleep during the day. He met Mary, another bank employee, in 1980 and they got married in 1981. They got divorced in 1983 as Mary could not keep up with Jeremy's nightmares, bouts of depression, and bouts with alcohol. After the divorce, Jeremy's depression increased, which led to the increase of his alcohol consumption. He was fired from his job later in 1983. An explanation for Jeremy's job loss could be termed as:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>idiographic and case-oriented analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>idiographic and variable-oriented analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>nomothetic and case-oriented analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>nomothetic and variable-oriented analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>cannot tell from the given information.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

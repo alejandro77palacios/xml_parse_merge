@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item15" title="The national speed limit in the United States was reduced to 55 mph in 1974. Proponents and critics of this legislation have looked at the number of traffic fatalities on major U.S. highways (e.g., I-90, I-65, and I-75) for the years preceding and followin" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>The national speed limit in the United States was reduced to 55 mph in 1974. Proponents and critics of this legislation have looked at the number of traffic fatalities on major U.S. highways (e.g., I-90, I-65, and I-75) for the years preceding and following this legislation. Sonny examined the traffic fatalities on each of the major U.S. highways for every year from 1968 to 2005. Sonny used a:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>pretest–posttest one-group design.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>time-series design.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>multiple time-series design.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>nonequivalent control group design.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>one-shot case study.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item19" title="Given the following age distribution, the range is _____." adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Given the following age distribution, the range is _____.</span>
+        <p>​</p>
+        <p>
+          <span>12, 15, 8, 17, 34, 43, 2, 16, 43, 3</span>
+        </p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>12 to 3</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>17 to 43</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>2 to 17</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>2 to 43</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>cannot be computed from the information given</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item7" title="How many degrees of freedom exist in the following table?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>How many degrees of freedom exist in the following table?</span>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="4">
+                <p>EMPLOYMENT STATUS</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>AGE</p>
+              </td>
+              <td>
+                <p>High</p>
+              </td>
+              <td>
+                <p>Medium</p>
+              </td>
+              <td>
+                <p>Low</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>31–40</p>
+              </td>
+              <td>
+                <p>100</p>
+              </td>
+              <td>
+                <p>300</p>
+              </td>
+              <td>
+                <p>800</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>41–50</p>
+              </td>
+              <td>
+                <p>300</p>
+              </td>
+              <td>
+                <p>700</p>
+              </td>
+              <td>
+                <p>500</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>51–60</p>
+              </td>
+              <td>
+                <p>600</p>
+              </td>
+              <td>
+                <p>200</p>
+              </td>
+              <td>
+                <p>100</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>9</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>8</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>3</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>4</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>1</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

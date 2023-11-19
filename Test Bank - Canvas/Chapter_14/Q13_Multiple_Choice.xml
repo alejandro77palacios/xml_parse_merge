@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item13" title="Professor Wilton decided to test whether blondes have more fun. Wilton surveyed 600 people and obtained the following results:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Professor Wilton decided to test whether blondes have more fun. Wilton surveyed 600 people and obtained the following results:</span>
+        <p>​</p>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="4">
+                <p>HAIR COLOR</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>FUN</p>
+              </td>
+              <td>
+                <p>Blondes</p>
+              </td>
+              <td>
+                <p>Nonblondes</p>
+              </td>
+              <td>
+                <p>Total</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Report fun</p>
+              </td>
+              <td>
+                <p>250</p>
+              </td>
+              <td>
+                <p>50</p>
+              </td>
+              <td>
+                <p>300</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Report no fun</p>
+              </td>
+              <td>
+                <p>150</p>
+              </td>
+              <td>
+                <p>150</p>
+              </td>
+              <td>
+                <p>300</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Total</p>
+              </td>
+              <td>
+                <p>400</p>
+              </td>
+              <td>
+                <p>200</p>
+              </td>
+              <td>
+                <p>600</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>​</p>
+        <p>The BEST way(s) to percentage this table is(are):</p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>within columns, down.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>within rows, across.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>divide each cell by 600.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>within columns, across.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>within rows, down.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item9" title="The following items and scoring scheme were taken from the Minnesota Opinion Survey. The four items were part of an index designed to assess attitudes toward education. The index includes response categories: SA=strongly agree, A=agree, U=undecided, D=disa" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>The following items and scoring scheme were taken from the Minnesota Opinion Survey. The four items were part of an index designed to assess attitudes toward education. The index includes response categories: SA=strongly agree, A=agree, U=undecided, D=disagree, and SD=strongly disagree.</span>
+        <p>​</p>
+        <p>1. A MAN CAN LEARN MORE BY WORKING FOUR YEARS THAN BY GOING TO SCHOOL.</p>
+        <p>SA(5)<span>  </span> A(4)<span>  </span> U(3)<span>  </span> D(2)<span>  </span> SD(1)</p>
+        <p>​</p>
+        <p>2. THE MORE EDUCATION A MAN HAS, THE BETTER HE IS ABLE TO ENJOY LIFE.</p>
+        <p>SA(1)<span>  </span> A(2)<span>  </span> U(3)<span>  </span> D(4)<span>  </span> SD(5)</p>
+        <p>​</p>
+        <p>3. EDUCATION HELPS A PERSON TO USE HIS LEISURE TIME TO BETTER ADVANTAGE.</p>
+        <p>SA(1)<span>  </span> A(2)<span>  </span> U(3)<span>  </span> D(4)<span>  </span> SD(5)</p>
+        <p>​</p>
+        <p>These items presumably form a:</p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Likert scale.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Thurstone scale.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Guttman scale.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Semantic differential scale.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Bogardus social distance scale.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

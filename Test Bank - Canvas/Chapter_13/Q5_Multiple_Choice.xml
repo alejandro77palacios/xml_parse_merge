@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item5" title="In the process of studying teenagers who play online role-playing games, Professor Johnson began her analysis with an in-depth interview with one of her students. She then takes the information from this first interview and applies it to subsequent intervi" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>In the process of studying teenagers who play online role-playing games, Professor Johnson began her analysis with an in-depth interview with one of her students. She then takes the information from this first interview and applies it to subsequent interviews. This would be an example of:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>theory.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>cross-case analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>semiotics.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>cross-sectional analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>content analysis.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

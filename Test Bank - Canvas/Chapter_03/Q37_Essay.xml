@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item37" title="Choose a hypothetical research project of your own interest. Rather than focusing upon the ethical concerns before and during the research project, think of what could come after the research has been completed. Why would this be a potential issue? What wo" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string" />
+  <itemBody>
+    <extendedTextInteraction responseIdentifier="RESPONSE" expectedLength="500">
+      <prompt>
+        <span>Choose a hypothetical research project of your own interest. Rather than focusing upon the ethical concerns before and during the research project, think of what could come after the research has been completed. Why would this be a potential issue? What would you do to avoid these problems?</span>
+      </prompt>
+    </extendedTextInteraction>
+  </itemBody>
+</assessmentItem>

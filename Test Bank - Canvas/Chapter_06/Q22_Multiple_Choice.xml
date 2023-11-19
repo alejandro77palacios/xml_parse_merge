@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item22" title="Robert notices that several respondents did not answer the question of whether they took out loans to fund their education. However, later in his survey, Robert finds that respondents told him about the source(s) and the amount(s) of their college loans. I" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Robert notices that several respondents did not answer the question of whether they took out loans to fund their education. However, later in his survey, Robert finds that respondents told him about the source(s) and the amount(s) of their college loans. In handling the missing data on the question of whether or not they had a college loan, Robert's best approach is to:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>randomly assign values to the missing data.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>delete the cases with missing data from the analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>assign the middle value to the cases with the missing data.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>use the information about amount and source of loans to assign values.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>ask the respondents to complete the survey a second time to get accurate responses.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

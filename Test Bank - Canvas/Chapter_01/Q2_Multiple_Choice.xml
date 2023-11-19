@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item2" title="Professor Rodgers found that the average level of happiness reported by people under 65 years of age declined from 1957 to 1970. However, for this same group, the average level of happiness increased slightly from 1970 to 1978. Rodgers also found that the " adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Professor Rodgers found that the average level of happiness reported by people under 65 years of age declined from 1957 to 1970. However, for this same group, the average level of happiness increased slightly from 1970 to 1978. Rodgers also found that the average level of happiness reported by people age 65 and older increased from 1957 to 1978. An(the) independent variable(s) in this study is(are)</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>people.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>level of happiness.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>age.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>gender.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>marital status.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

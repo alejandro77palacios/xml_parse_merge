@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="Construction of explanatory bivariate tables involves:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Construction of explanatory bivariate tables involves:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>dividing cases into the appropriate subgroups, describing each subgroup in terms of a given variable, and comparing those descriptions across subgroups.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>dividing, describing, and comparing subgroups on independent and dependent variables.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>analyzing the simultaneous relationships among several variables among subgroups.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>dividing, describing, and comparing univariate independent variables on subgroups.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>analyzing the simultaneous relationships among several variables.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

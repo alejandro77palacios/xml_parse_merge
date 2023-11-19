@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item4" title="In a study of women the following notation was used: Y = f(X) where Y represented fertility plans and X represented occupational plans. This states:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>In a study of women the following notation was used: <em>Y</em> = <em>f</em>(<em>X</em>) where <em>Y</em> represented fertility plans and <em>X</em> represented occupational plans. This states:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>that fertility plans are a function of (or are affected by) occupational plans.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>that occupational plans are a function of (or are affected by) fertility plans.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>that occupational plans are not a function of fertility plans.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>that fertility plans are a function of (or are affected by) occupational plans and is a hypothesis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>that occupational plans are a function of (or are affected by) fertility plans and is a hypothesis.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

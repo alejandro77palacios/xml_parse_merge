@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item36" title="Given the following table:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string" />
+  <itemBody>
+    <extendedTextInteraction responseIdentifier="RESPONSE" expectedLength="500">
+      <prompt>
+        <span>Given the following table:</span>
+        <p>a. Calculate and interpret an appropriate measure of association.</p>
+        <p>b. Calculate and interpret chi square at the .05 level of significance.</p>
+        <p>​</p>
+        <p>RACE OF OFFENDER BY TYPE OF COUNSEL</p>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="4">
+                <p>RACE</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>COUNSEL</p>
+              </td>
+              <td>
+                <p>White</p>
+              </td>
+              <td>
+                <p>Nonwhite</p>
+              </td>
+              <td>
+                <p>Total</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Private</p>
+              </td>
+              <td>
+                <p>50</p>
+              </td>
+              <td>
+                <p>25</p>
+              </td>
+              <td>
+                <p>75</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Court appointed</p>
+              </td>
+              <td>
+                <p>30</p>
+              </td>
+              <td>
+                <p>50</p>
+              </td>
+              <td>
+                <p>80</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>None</p>
+              </td>
+              <td>
+                <p>5</p>
+              </td>
+              <td>
+                <p>10</p>
+              </td>
+              <td>
+                <p>15</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Total</p>
+              </td>
+              <td>
+                <p>85</p>
+              </td>
+              <td>
+                <p>85</p>
+              </td>
+              <td>
+                <p>170</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <br />
+        </p>
+      </prompt>
+    </extendedTextInteraction>
+  </itemBody>
+</assessmentItem>

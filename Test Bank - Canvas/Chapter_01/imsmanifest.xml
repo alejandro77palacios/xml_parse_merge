@@ -1,0 +1,1226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ID_707249f7-e808-4639-87cd-338eaae087ef" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:imsqti="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsmd_loose_v1p3p2.xsd   http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/qtiv2p1_imscpv1p2_v1p0.xsd http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd">
+    <metadata>
+        <schema>QTIv2.1 Package</schema>
+        <schemaversion>1.0.0</schemaversion>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+            <general>
+                <title>
+                    <string>Chapter 01</string>
+                </title>
+                <language>en</language>
+            </general>
+            <metaMetadata xmlns="http://ltsc.ieee.org/xsd/LOM">
+                <metadataschema>LOMv1.0</metadataschema>
+                <metadataschema>QTIv2.1</metadataschema>
+                <language>en</language>
+            </metaMetadata>
+        </lom>
+    </metadata>
+    <organizations/>
+    <resources>
+        <resource identifier="ID_QTIExport_Resource_0" type="imsqti_item_xmlv2p1" href="Q0_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Methodology differs from epistemology in that methodology is</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q0_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_1" type="imsqti_item_xmlv2p1" href="Q1_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Epistemology is best described as</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q1_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_2" type="imsqti_item_xmlv2p1" href="Q2_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Professor Rodgers found that the average level of happiness reported by people under
+                                65 years of age declined from 1957 to 1970. However, for this same group, the average
+                                level of happiness increased slightly from 1970 to 1978. Rodgers also found that the
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q2_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_3" type="imsqti_item_xmlv2p1" href="Q3_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Social science theory addresses</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q3_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_4" type="imsqti_item_xmlv2p1" href="Q4_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Which of the following would a sociologist be LEAST likely to study?</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q4_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_5" type="imsqti_item_xmlv2p1" href="Q5_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>As students we learn that studying hard causes good grades. Such cause and effect
+                                are _____ in nature.
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q5_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_6" type="imsqti_item_xmlv2p1" href="Q6_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>One of your friends scored in the 90s on her last ten exams. Although she has been
+                                studying for this exam and feels prepared, she told you, "I know I'm going to flunk this
+                                exam. I've been doing too well on exams." Your friend is committing the error of
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q6_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_7" type="imsqti_item_xmlv2p1" href="Q7_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>A form of human interference in which what we learn about society can change reality
+                                so what we learned is not true is known as being
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q7_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_8" type="imsqti_item_xmlv2p1" href="Q8_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Researchers analyzed the effects of race on sexual activity among adolescent women.
+                                The dependent variable is
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q8_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_9" type="imsqti_item_xmlv2p1" href="Q9_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Which of the following is an aim of social science?</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q9_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_10" type="imsqti_item_xmlv2p1" href="Q10_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>After examining divorce court records, Jenny concludes that mothers are more likely
+                                than fathers to obtain custody of their children. This type of statement is
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q10_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_11" type="imsqti_item_xmlv2p1" href="Q11_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>In comparison to nonscientific inquiry, scientific inquiry</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q11_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_12" type="imsqti_item_xmlv2p1" href="Q12_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>An independent variable is a</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q12_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_13" type="imsqti_item_xmlv2p1" href="Q13_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Which of the following is(are) a probabilistic statement(s)?</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q13_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_14" type="imsqti_item_xmlv2p1" href="Q14_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Which of the following is most likely to be a list of variables?</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q14_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_15" type="imsqti_item_xmlv2p1" href="Q15_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Quantification</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q15_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_16" type="imsqti_item_xmlv2p1" href="Q16_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>The ability to have two different, conflicting ideas in one's mind simultaneously
+                                without denying or dismissing either of them is known as
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q16_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_17" type="imsqti_item_xmlv2p1" href="Q17_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Pregnant at age 15, Tammy decided to have her baby. Her parents were upset with her
+                                decision and threatened to "cut her off" if she did not complete high school. A
+                                difficult pregnancy and embarrassment resulted in Tammy dropping out of school. After
+                                the ba
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q17_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_18" type="imsqti_item_xmlv2p1" href="Q18_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Qualitative explanations tend to be _____ and quantitative explanations tend to be
+                                _____.
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q18_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_19" type="imsqti_item_xmlv2p1" href="Q19_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>The development and implementation of simple and complex measurement devices is a
+                                safeguard against
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q19_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_20" type="imsqti_item_xmlv2p1" href="Q20_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Which of the following is FALSE concerning the use of tradition in inquiry?</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q20_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_21" type="imsqti_item_xmlv2p1" href="Q21_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Fred's biology teacher told him about the "birds and the bees." By relying on his
+                                biology teacher's explanation, Fred relies on _____ as a way of knowing.
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q21_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_22" type="imsqti_item_xmlv2p1" href="Q22_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>The analysis of deviant cases—cases that do not fit the general pattern—helps guard
+                                against _____
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q22_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_23" type="imsqti_item_xmlv2p1" href="Q23_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Female, ages 18 to 25, brown hair, and teacher are examples of</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q23_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_24" type="imsqti_item_xmlv2p1" href="Q24_Multiple_Choice.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>The contradiction of scientific research in which we exert our free will or are the
+                                product of our environment is
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q24_Multiple_Choice.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_25" type="imsqti_item_xmlv2p1" href="Q25_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>If an exception is found to a sociological pattern, the pattern is invalid.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q25_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_26" type="imsqti_item_xmlv2p1" href="Q26_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Patterns of cause and effect are probabilistic in nature.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q26_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_27" type="imsqti_item_xmlv2p1" href="Q27_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Idiographic explanations are inductive and nomothetic explanations are deductive.
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q27_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_28" type="imsqti_item_xmlv2p1" href="Q28_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>The variable age has the attribute of 18 to 24.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q28_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_29" type="imsqti_item_xmlv2p1" href="Q29_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Social science theories try to explain why aggregated patterns of behavior are so
+                                regular, even when the individuals participating in them may change over time.
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q29_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_30" type="imsqti_item_xmlv2p1" href="Q30_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>We can predict without understanding.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q30_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_31" type="imsqti_item_xmlv2p1" href="Q31_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>There is never a time that we should generalize.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q31_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_32" type="imsqti_item_xmlv2p1" href="Q32_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Every observation is quantitative at the outset.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q32_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_33" type="imsqti_item_xmlv2p1" href="Q33_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Social regularities are probabilistic patterns.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q33_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_34" type="imsqti_item_xmlv2p1" href="Q34_True_False.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Nomothetic reasoning is more useful than idiographic reasoning.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q34_True_False.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_35" type="imsqti_item_xmlv2p1" href="Q35_Essay.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Discuss how scientific inquiry tries to avoid the common pitfalls that produce error
+                                in nonscientific inquiry.
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q35_Essay.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_36" type="imsqti_item_xmlv2p1" href="Q36_Essay.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Name five sociological variables and their attributes.</string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q36_Essay.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_37" type="imsqti_item_xmlv2p1" href="Q37_Essay.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>What are two strengths and two weaknesses of qualitative and quantitative approaches
+                                to social research? How do researchers choose which to use?
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Describe the basic options for conducting social research.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q37_Essay.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_38" type="imsqti_item_xmlv2p1" href="Q38_Essay.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>Why is overgeneralization a problem in causal inquiries? How can a researcher keep
+                                from making this kind of error?
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Identify the different ways in which people decide what’s real.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q38_Essay.xml"/>
+        </resource>
+        <resource identifier="ID_QTIExport_Resource_39" type="imsqti_item_xmlv2p1" href="Q39_Essay.xml">
+            <metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                    <general>
+                        <title>
+                            <string>What is a social regularity? Why do social scientists focus on patterns rather than
+                                individuals?
+                            </string>
+                        </title>
+                    </general>
+                    <educational>
+                        <description>
+                            <string>Explain the foundations of social science.</string>
+                        </description>
+                        <intendedEndUserRole>
+                            <value>teacher</value>
+                        </intendedEndUserRole>
+                        <context/>
+                    </educational>
+                    <imsqti:qtiMetadata>
+                        <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+                        <imsqti:itemTemplate>false</imsqti:itemTemplate>
+                        <imsqti:timeDependent>false</imsqti:timeDependent>
+                        <imsqti:composite>false</imsqti:composite>
+                        <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+                        <imsqti:feedbackType>none</imsqti:feedbackType>
+                    </imsqti:qtiMetadata>
+                </lom>
+            </metadata>
+            <file href="Q39_Essay.xml"/>
+        </resource>
+    </resources>
+</manifest>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item23" title="Which of the following statements is FALSE regarding comparative and historical research?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following statements is FALSE regarding comparative and historical research?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>It is often regarded as a qualitative technique.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>It can use quantitative methods.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>It assumes that the documented history coincides with what actually happened.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>It sometimes uses time-series data to monitor changing conditions over time.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>It is used to examine societies over time and to compare them to each other.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

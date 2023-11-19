@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item22" title="Why is plagiarism considered to be a violation of research ethics?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Why is plagiarism considered to be a violation of research ethics?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>It involves the falsification of data.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>It isn’t a violation of research ethics.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>It involves direct harm to research subjects.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>It is the theft of someone else’s words or ideas.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>It is releasing the private personal information of subjects.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="In path analysis, the statistic measuring the strength of a relationship between pairs of variables with the effect of other variables held constant is called:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>In path analysis, the statistic measuring the strength of a relationship between pairs of variables with the effect of other variables held constant is called:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>a path coefficient.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>a partial epsilon.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>a coefficient of alienation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>residual variance.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>a variance coefficient.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

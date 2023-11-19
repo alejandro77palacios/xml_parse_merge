@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item7" title="Which of the following does NOT harm subjects?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following does NOT harm subjects?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Having them face aspects of themselves that they do not normally consider</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Asking them to reveal their unpopular attitudes</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Asking them to identify their deviant behavior</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Allowing them to identify themselves easily in the final report</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Asking them to provide demographic information</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

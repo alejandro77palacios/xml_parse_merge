@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ID_32d184d9-347c-4937-a4b2-c57fc0033929" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsqti="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsmd_loose_v1p3p2.xsd http://www.imsglobal.org/xsd/imsqti_metadata_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_metadata_v2p1p1.xsd http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/qtiv2p1_imscpv1p2_v1p0.xsd http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd">
+  <metadata>
+    <schema>QTIv2.1 Package</schema>
+    <schemaversion>1.0.0</schemaversion>
+    <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+      <general>
+        <title>
+          <string>Chapter 13</string>
+        </title>
+        <language>en</language>
+      </general>
+      <metaMetadata xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <metadataschema>LOMv1.0</metadataschema>
+        <metadataschema>QTIv2.1</metadataschema>
+        <language>en</language>
+      </metaMetadata>
+    </lom>
+  </metadata>
+  <organizations />
+  <resources>
+    <resource identifier="ID_QTIExport_Resource_0" type="imsqti_item_xmlv2p1" href="Q0_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Wang wonders whether all grandparents act alike or whether there are different roles associated with grandparenting. According to Lofland et al., Wang should focus on _________ of the research in order to determine whether there are different typ</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q0_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_1" type="imsqti_item_xmlv2p1" href="Q1_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Michael is studying the pattern of volunteers at a local battered women's shelter. Specifically, he was following how college-age students first volunteer, then take on an internship, and then finally seek employment at the agency. What is Michael studying</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q1_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_2" type="imsqti_item_xmlv2p1" href="Q2_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is TRUE of variable-oriented analysis?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q2_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_3" type="imsqti_item_xmlv2p1" href="Q3_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following statements is most appropriate when discussing the grounded theory method?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q3_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_4" type="imsqti_item_xmlv2p1" href="Q4_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Cay notes that respondent Mary Ginger is a 54-year-old grandmother who has two grandchildren living in her household. Neither of the grandchildren's parents live with them although Mary is the maternal grandmother. Cay also learns that Ginger had</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q4_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_5" type="imsqti_item_xmlv2p1" href="Q5_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In the process of studying teenagers who play online role-playing games, Professor Johnson began her analysis with an in-depth interview with one of her students. She then takes the information from this first interview and applies it to subsequent intervi</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q5_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_6" type="imsqti_item_xmlv2p1" href="Q6_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The grounded theory method begins with:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q6_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_7" type="imsqti_item_xmlv2p1" href="Q7_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Dahl was using NVivo for an analysis of relationships. Dahl created a node called "friendship" and then created a node called "same-sex" and another node called opposite-sex" under "friendship." Dahl was creating:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Recognize some computer programs that can be used for qualitative analysis and explain how they work.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q7_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_8" type="imsqti_item_xmlv2p1" href="Q8_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Dr. Adams is conducting a conversation analysis in a college classroom. Which of the following ethical issues should she be especially careful of?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Summarize some of the ethical issues that can occur in qualitative research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q8_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_9" type="imsqti_item_xmlv2p1" href="Q9_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Creating a graphic representation of the major concepts in your project and how they relate to each other is an example of:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q9_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_10" type="imsqti_item_xmlv2p1" href="Q10_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Jeremy was born in 1948 and grew up during the 1960s. He was sent to Vietnam in 1967. In Vietnam he was horrified by what he saw, and when he returned home he suffered sleepless nights and nightmares. He began to work at a bank but often fell asleep during</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q10_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_11" type="imsqti_item_xmlv2p1" href="Q11_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>When a researcher begins with a specific case or participant, and then applies those findings to subsequent participants in order to develop a theory, he or she is:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q11_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_12" type="imsqti_item_xmlv2p1" href="Q12_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is NOT one of the four stages of the constant comparative method?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q12_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_13" type="imsqti_item_xmlv2p1" href="Q13_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following statements is FALSE regarding semiotic analysis?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q13_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_14" type="imsqti_item_xmlv2p1" href="Q14_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Computer software packages designed to analyze qualitative data include all but which of the following:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Recognize some computer programs that can be used for qualitative analysis and explain how they work.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q14_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_15" type="imsqti_item_xmlv2p1" href="Q15_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In reading Court decisions, Professor Wofford notices that the decisions typically discuss the "rational male." Wofford begins to write notes in which she ruminates about the notion of the rational male as well as why the concept of the rational female is </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q15_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_16" type="imsqti_item_xmlv2p1" href="Q16_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Code notes are used to:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q16_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_17" type="imsqti_item_xmlv2p1" href="Q17_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which statement about social research is TRUE?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q17_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_18" type="imsqti_item_xmlv2p1" href="Q18_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is NOT true for a qualitative researcher?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Recognize some computer programs that can be used for qualitative analysis and explain how they work.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q18_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_19" type="imsqti_item_xmlv2p1" href="Q19_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is NOT a fundamental assumption of conversation analysis?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q19_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_20" type="imsqti_item_xmlv2p1" href="Q20_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Mikhael is examining the symbolic elements of a standard police encounter, such as the behaviors and clues an officer encounters that could signify danger. What sort of qualitative research is he performing?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q20_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_21" type="imsqti_item_xmlv2p1" href="Q21_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Axial coding aims at:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q21_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_22" type="imsqti_item_xmlv2p1" href="Q22_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The best advice for writing memos is that:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q22_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_23" type="imsqti_item_xmlv2p1" href="Q23_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is a benefit of the qualitative analysis of quantitative data?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Provide examples of how quantitative data can be analyzed qualitatively.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q23_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_24" type="imsqti_item_xmlv2p1" href="Q24_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Dr. Whitney has just finished a qualitative study of attitudes about race among college students. She is concerned that her analysis might be flawed. Which of the following would be BAD advice about how to ensure the quality of her research?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain some of the ways researchers can assess the quality of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q24_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_25" type="imsqti_item_xmlv2p1" href="Q25_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Qualitative analysis requires the conversion of social research data into a numerical format.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Provide examples of how quantitative data can be analyzed qualitatively.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q25_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_26" type="imsqti_item_xmlv2p1" href="Q26_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Data collection, analysis, and theory are more intimately intertwined in qualitative analysis than in quantitative analysis.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q26_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_27" type="imsqti_item_xmlv2p1" href="Q27_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Qualitative research is undertaken for descriptive purposes and never for explanatory purposes.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q27_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_28" type="imsqti_item_xmlv2p1" href="Q28_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>While computer software to analyze data qualitatively does exist, it is limited to only text data.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Recognize some computer programs that can be used for qualitative analysis and explain how they work.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q28_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_29" type="imsqti_item_xmlv2p1" href="Q29_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>When using qualitative data analysis software, the results are as inarguable as quantitative data analysis.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Recognize some computer programs that can be used for qualitative analysis and explain how they work.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q29_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_30" type="imsqti_item_xmlv2p1" href="Q30_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>It is as important to identify the standardized unit for coding in qualitative analysis as it is in quantitative analysis.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q30_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_31" type="imsqti_item_xmlv2p1" href="Q31_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Concept mapping is appropriate for both qualitative and quantitative analyses.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q31_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_32" type="imsqti_item_xmlv2p1" href="Q32_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Writing memos is a linear process that begins with data collection and ends with data analysis.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q32_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_33" type="imsqti_item_xmlv2p1" href="Q33_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A node is an established code in terms of NVivo.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Recognize some computer programs that can be used for qualitative analysis and explain how they work.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q33_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_34" type="imsqti_item_xmlv2p1" href="Q34_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Axial coding is the most common and most frequently used form of qualitative data coding.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q34_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_35" type="imsqti_item_xmlv2p1" href="Q35_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Define what is meant by variable-oriented analysis and case-oriented analysis. Give an example of a research project in which you would use variable-oriented analysis and another one where you would use case-oriented analysis.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and explain the three methods for linking theory and analysis.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q35_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_36" type="imsqti_item_xmlv2p1" href="Q36_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>What are the two biggest ethical concerns in conducting qualitative data research? How can researchers best address each concern?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Summarize some of the ethical issues that can occur in qualitative research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q36_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_37" type="imsqti_item_xmlv2p1" href="Q37_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Compare and contrast the three major forms of qualitative data coding.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the use of coding in the analysis of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q37_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_38" type="imsqti_item_xmlv2p1" href="Q38_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Identify and explain three ways that researchers can assess the quality of qualitative data analysis. Why is this an important step in qualitative research?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain some of the ways researchers can assess the quality of qualitative data.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q38_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_39" type="imsqti_item_xmlv2p1" href="Q39_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>What is the purpose of conducting a qualitative analysis of quantitative data? Provide at least two examples of appropriate qualitative analyses of quantitative data.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Provide examples of how quantitative data can be analyzed qualitatively.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q39_Essay.xml" />
+    </resource>
+  </resources>
+</manifest>

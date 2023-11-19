@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ID_d5b58be7-257b-40ba-8e90-c0b4c07948a5" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsqti="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsmd_loose_v1p3p2.xsd http://www.imsglobal.org/xsd/imsqti_metadata_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_metadata_v2p1p1.xsd http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/qtiv2p1_imscpv1p2_v1p0.xsd http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd">
+  <metadata>
+    <schema>QTIv2.1 Package</schema>
+    <schemaversion>1.0.0</schemaversion>
+    <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+      <general>
+        <title>
+          <string>Chapter 04</string>
+        </title>
+        <language>en</language>
+      </general>
+      <metaMetadata xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <metadataschema>LOMv1.0</metadataschema>
+        <metadataschema>QTIv2.1</metadataschema>
+        <language>en</language>
+      </metaMetadata>
+    </lom>
+  </metadata>
+  <organizations />
+  <resources>
+    <resource identifier="ID_QTIExport_Resource_0" type="imsqti_item_xmlv2p1" href="Q0_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The topic of surrogate mothers interested Professor Snyder. Snyder read the available materials on the topic and wanted to develop an age, education, and income profile of women who serve as surrogate mothers in the United States. To develop this profile, </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the role of exploration, description, and explanation in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q0_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_1" type="imsqti_item_xmlv2p1" href="Q1_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Dooley examined the literature on AIDS and could find nothing that examined children's attitudes toward parents and friends with AIDS. To examine this topic, Dooley should undertake a(n):</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the role of exploration, description, and explanation in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q1_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_2" type="imsqti_item_xmlv2p1" href="Q2_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>If a researcher wanted to know why there was a noticeable increase in the number of burglaries in the town of Southpaw during 2005, the researcher would design a(n):</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the role of exploration, description, and explanation in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q2_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_3" type="imsqti_item_xmlv2p1" href="Q3_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Ruth puzzles over a report that claims that women are more likely to vote for Democrats than men. She puzzles because her best friend, Joan, always votes Republican. Ruth is guilty of using which of the following false criteria for nomothetic causality?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q3_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_4" type="imsqti_item_xmlv2p1" href="Q4_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following hypotheses best fits the criteria of causality?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q4_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_5" type="imsqti_item_xmlv2p1" href="Q5_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor King examined all the reasons given by 100 couples for their marriages. In the final research report, King listed all the reasons given by the 200 people for their marriages. Professor King is:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the logic and procedures of idiographic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q5_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_6" type="imsqti_item_xmlv2p1" href="Q6_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A(n) _____ is probabilistic and usually incomplete.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q6_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_7" type="imsqti_item_xmlv2p1" href="Q7_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A researcher examined newspaper editorials from papers published in major U.S. cities to determine what issues concerned readers. The unit of analysis in these cases is:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q7_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_8" type="imsqti_item_xmlv2p1" href="Q8_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>There is a strong correlation between the number of firefighters that show up at a fire and the amount of damage produced by the fire. The size of the fire influences both the number of firefighters and the amount of damage. This illustrates that the relat</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q8_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_9" type="imsqti_item_xmlv2p1" href="Q9_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In cases where one variable seems to cause another, yet the relation between the two makes no sense, there is a:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q9_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_10" type="imsqti_item_xmlv2p1" href="Q10_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Root was studying the arrest rates for driving under the influence in urban and rural areas of Ohio. It was found that the arrest rate was higher in the rural areas. Professor Root concluded that people who live in rural areas are more likely to </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q10_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_11" type="imsqti_item_xmlv2p1" href="Q11_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following statements is TRUE?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Distinguish between necessary and sufficient causes, giving examples.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q11_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_12" type="imsqti_item_xmlv2p1" href="Q12_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>What stage of the research design is the researcher dealing with when he or she is facing the question "from whom or what information would be gathered"?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q12_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_13" type="imsqti_item_xmlv2p1" href="Q13_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is NOT a characteristic of a cross-sectional study?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q13_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_14" type="imsqti_item_xmlv2p1" href="Q14_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>If a researcher were conducting a study of women's attitudes toward abortion, the unit of analysis would be:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q14_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_15" type="imsqti_item_xmlv2p1" href="Q15_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Explanatory studies are designed to find answers to which of the following questions?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the role of exploration, description, and explanation in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q15_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_16" type="imsqti_item_xmlv2p1" href="Q16_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A single U.S. census is a:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q16_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_17" type="imsqti_item_xmlv2p1" href="Q17_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The use of a selection of newspaper articles on racial discrimination as a unit of analysis would be an example of:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q17_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_18" type="imsqti_item_xmlv2p1" href="Q18_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following studies uncovers only net changes?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q18_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_19" type="imsqti_item_xmlv2p1" href="Q19_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The final stage of the research process is:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and discuss the key elements in the design of a research project.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q19_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_20" type="imsqti_item_xmlv2p1" href="Q20_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Sheckler is looking to study the career trajectories of a specific group of college students, following the same individuals through their senior year and then five years afterward. What form of research methodology would he be using?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q20_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_21" type="imsqti_item_xmlv2p1" href="Q21_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Tyler finds that in burglary cases male and female jurors are equally likely to vote to acquit. Tyler should conclude that:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q21_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_22" type="imsqti_item_xmlv2p1" href="Q22_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Rose is conducting a study where she intends to follow a random selection of teenagers over a five-year period. Each year she will randomly sample 500 individuals from a total of 50 high schools. What form of research is she performing?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q22_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_23" type="imsqti_item_xmlv2p1" href="Q23_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In Sweden, there is a very strong correlation between the number of storks and the number of babies born. However, both of these variables are associated with region (rural vs. urban). This illustrates:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q23_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_24" type="imsqti_item_xmlv2p1" href="Q24_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Stone designs a study to examine the effect of a teenage pregnancy on the career choices of the teens. Stone interviews a sample of teenage women during their pregnancy, after the birth, and one year later. Stone is using a:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q24_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_25" type="imsqti_item_xmlv2p1" href="Q25_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Research designs are descriptive, explanatory, or exploratory—never more than one.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the role of exploration, description, and explanation in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q25_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_26" type="imsqti_item_xmlv2p1" href="Q26_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A research proposal describes what you intend to accomplish and how.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the elements and structure of a research proposal.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q26_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_27" type="imsqti_item_xmlv2p1" href="Q27_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Researchers ignore previous work on a topic so that their research can be original.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give examples of how research design can have ethical implications.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q27_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_28" type="imsqti_item_xmlv2p1" href="Q28_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The ecological fallacy refers to drawing conclusions about individuals based solely on the observation of groups.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q28_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_29" type="imsqti_item_xmlv2p1" href="Q29_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Operationalization is the process of clarifying what is meant by the concepts being used in a study.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and discuss the key elements in the design of a research project.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q29_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_30" type="imsqti_item_xmlv2p1" href="Q30_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Two variables that are highly correlated by definition have a causal relationship.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q30_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_31" type="imsqti_item_xmlv2p1" href="Q31_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Cross-sectional studies can be used to approximate a longitudinal study.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q31_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_32" type="imsqti_item_xmlv2p1" href="Q32_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A necessary condition represents a condition that, if it is present, will pretty much guarantee the effect in question.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Distinguish between necessary and sufficient causes, giving examples.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q32_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_33" type="imsqti_item_xmlv2p1" href="Q33_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The units of analysis and the aggregates that we generalize about are the same.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q33_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_34" type="imsqti_item_xmlv2p1" href="Q34_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>There is no statistical test to prove the achievement of success in ideographic explanation.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the logic and procedures of idiographic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q34_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_35" type="imsqti_item_xmlv2p1" href="Q35_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Discuss the three purposes for doing research. Describe a study that illustrates each purpose.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the role of exploration, description, and explanation in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q35_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_36" type="imsqti_item_xmlv2p1" href="Q36_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Identify and give an example of four units of analysis. Illustrate the ecological fallacy using your examples.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify some of the common units of analysis in social research and explain why that concept is important.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q36_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_37" type="imsqti_item_xmlv2p1" href="Q37_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>List and explain the three specific criteria of causality suggested by Babbie. Give an example of a causal statement.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Name and discuss the legitimate and false criteria for nomothetic explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q37_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_38" type="imsqti_item_xmlv2p1" href="Q38_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>List and discuss the various forms of longitudinal research that we have discussed in class. In addition, give a potential scenario where each one may or may not be used. What are the benefits and shortcomings?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and describe some common study designs based on the time dimension.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q38_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_39" type="imsqti_item_xmlv2p1" href="Q39_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>This short answer/essay can be assigned in multiple ways. One is to simply ask students what the structure of a research proposal is. A second way of asking the question is to distribute a proposal and ask students to describe the structure of a research p</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the elements and structure of a research proposal.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q39_Essay.xml" />
+    </resource>
+  </resources>
+</manifest>

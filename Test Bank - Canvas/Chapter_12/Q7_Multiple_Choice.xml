@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item7" title="If gun control legislation was passed to reduce the number of homicides, which of the following graphs would be most likely to convince you that the legislation was producing the intended effect? Note that in all graphs the horizontal axis (x-axis) is time" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>If gun control legislation was passed to reduce the number of homicides, which of the following graphs would be most likely to convince you that the legislation was producing the intended effect? Note that in all graphs the horizontal axis (<em>x</em>-axis) is time and the vertical axis (<em>y</em>-axis) is number of homicides. The dot l indicates an observation.</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>
+          <img alt="" src="media_0263858d_86c8_4c6f_9136_b398f073ca56.PNG" />
+        </span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>
+          <img alt="" src="media_6b2ac9f8_6132_47a6_8f81_815cf1c7c939.PNG" />
+        </span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>
+          <img alt="" src="media_8bb6cb95_c9d3_4d39_939f_ad358663b550.PNG" />
+        </span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>
+          <img alt="" src="media_03f9e40b_b860_4a75_8483_c29f103bdc69.PNG" />
+        </span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>The effect of gun control legislation on homicides cannot be graphed.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

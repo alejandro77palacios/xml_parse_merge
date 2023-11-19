@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item16" title="Professor Thames tried to use a Guttman scale on his data set that he had seen published in a major journal. Thames was upset because the items did not form a Guttman scale on his data. Confused, he asked for your help. You should tell him that:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Professor Thames tried to use a Guttman scale on his data set that he had seen published in a major journal. Thames was upset because the items did not form a Guttman scale on his data. Confused, he asked for your help. You should tell him that:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>the article that appeared in the journal was probably an error.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>he should recheck his scaling techniques because he probably made an error.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>items may form a Guttman scale in one sample but not in another.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>it was probably not a very good scale.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>a Guttman scale can only be used in a univariate analysis.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

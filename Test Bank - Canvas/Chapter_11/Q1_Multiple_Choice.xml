@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item1" title="If we wanted to determine whether states that pass clean air legislation (no smoking in public areas) are more likely to enact laws requiring motorcyclists to wear helmets than are states that had not passed clean air legislation, the unit of analysis woul" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>If we wanted to determine whether states that pass clean air legislation (no smoking in public areas) are more likely to enact laws requiring motorcyclists to wear helmets than are states that had not passed clean air legislation, the unit of analysis would be:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>the individual states.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>the individual act of legislation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>passage or nonpassage of the clean air legislation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>the clean air legislation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>states that passed clean air legislation.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

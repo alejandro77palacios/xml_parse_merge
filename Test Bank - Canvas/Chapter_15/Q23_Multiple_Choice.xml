@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item23" title="Studying the relationship between parental supervision and juvenile delinquency, Maria found a strong relationship between the two. She then introduced a third variable, education, and the partials still showed a strong relationship between supervision and" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Studying the relationship between parental supervision and juvenile delinquency, Maria found a strong relationship between the two. She then introduced a third variable, education, and the partials still showed a strong relationship between supervision and delinquency. What may she conclude?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>That replication took place.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>That the relationship between supervision and delinquency is spurious.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>That the relationship between supervision and delinquency is nonspurious.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>That the relationship between supervision and delinquency is spurious and replication took place.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>That the relationship between supervision and delinquency is nonspurious and replication took place.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

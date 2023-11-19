@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ID_f446afdc-a8fc-422f-b0f1-b0ea403c2813" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsqti="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsmd_loose_v1p3p2.xsd http://www.imsglobal.org/xsd/imsqti_metadata_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_metadata_v2p1p1.xsd http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/qtiv2p1_imscpv1p2_v1p0.xsd http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd">
+  <metadata>
+    <schema>QTIv2.1 Package</schema>
+    <schemaversion>1.0.0</schemaversion>
+    <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+      <general>
+        <title>
+          <string>Chapter 09</string>
+        </title>
+        <language>en</language>
+      </general>
+      <metaMetadata xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <metadataschema>LOMv1.0</metadataschema>
+        <metadataschema>QTIv2.1</metadataschema>
+        <language>en</language>
+      </metaMetadata>
+    </lom>
+  </metadata>
+  <organizations />
+  <resources>
+    <resource identifier="ID_QTIExport_Resource_0" type="imsqti_item_xmlv2p1" href="Q0_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Bias in a questionnaire item:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the key rules for asking questions in a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q0_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_1" type="imsqti_item_xmlv2p1" href="Q1_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Asking subjects "Did your children go to high school?" after they told you that they have no children violates which of the following criteria in question construction?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the key rules for asking questions in a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q1_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_2" type="imsqti_item_xmlv2p1" href="Q2_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Interview surveys are recommended to open with:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the steps involved in the execution of an interview survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q2_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_3" type="imsqti_item_xmlv2p1" href="Q3_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A questionnaire item, distributed to a random sample of adults, reading “Are you not in support of nationalized health care,” with a yes or no possible response, would violate which concept?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the key rules for asking questions in a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q3_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_4" type="imsqti_item_xmlv2p1" href="Q4_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The questionnaire item, “Did you file federal and state income tax reports last year?” with a response set of yes, no, can’t remember, other, is an example of a(n):</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the key rules for asking questions in a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q4_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_5" type="imsqti_item_xmlv2p1" href="Q5_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following statements about contingency questions is FALSE? Contingency questions are designed to:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss some of the key concerns in the construction of a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q5_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_6" type="imsqti_item_xmlv2p1" href="Q6_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A variety of methods are available for the presentation of response categories. Which of the following methods does Babbie prefer?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss some of the key concerns in the construction of a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q6_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_7" type="imsqti_item_xmlv2p1" href="Q7_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A return-rate graph:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the steps involved in the execution of a self-administered survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q7_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_8" type="imsqti_item_xmlv2p1" href="Q8_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>One of the most important abilities that good interviewers have is the ability to:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the steps involved in the execution of an interview survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q8_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_9" type="imsqti_item_xmlv2p1" href="Q9_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A key problem of secondary analysis is:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain what secondary analysis is and its key advantages and disadvantages.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q9_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_10" type="imsqti_item_xmlv2p1" href="Q10_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In general, survey research is:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify the key strengths and weaknesses of survey research in general.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q10_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_11" type="imsqti_item_xmlv2p1" href="Q11_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Interview surveys have a number of advantages over mail surveys; which of the following is NOT one of those advantages?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand which research projects are most suitable to each of the different survey methods.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q11_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_12" type="imsqti_item_xmlv2p1" href="Q12_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A well-designed training session for new interviewers should include all but which of the following?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the steps involved in the execution of an interview survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q12_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_13" type="imsqti_item_xmlv2p1" href="Q13_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>During an interviewer training session, Jones, a trainee, asks you, "What should I do if …?" You tell Jones:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the steps involved in the execution of an interview survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q13_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_14" type="imsqti_item_xmlv2p1" href="Q14_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Working with a very limited budget, Professor Jenner undertook a national survey of 3,000 households. Jenner felt that the topic under investigation would produce a low response rate. What advice would you give Jenner?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the steps involved in the execution of a self-administered survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q14_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_15" type="imsqti_item_xmlv2p1" href="Q15_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following lists the three main methods of administering survey questionnaires?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the steps involved in the execution of a self-administered survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q15_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_16" type="imsqti_item_xmlv2p1" href="Q16_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following techniques tends to have the highest response rate?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand which research projects are most suitable to each of the different survey methods.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q16_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_17" type="imsqti_item_xmlv2p1" href="Q17_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>When follow-ups are planned with mail surveys:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the steps involved in the execution of a self-administered survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q17_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_18" type="imsqti_item_xmlv2p1" href="Q18_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is NOT an advantage of the telephone interview as compared to the face-to-face interview?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Summarize the steps involved in the execution of a telephone survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q18_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_19" type="imsqti_item_xmlv2p1" href="Q19_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The number of potential respondents that a researcher encounters, whether they participate or not, is labeled by the American Association for Public Opinion Research as:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the steps involved in the execution of a self-administered survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q19_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_20" type="imsqti_item_xmlv2p1" href="Q20_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Smidlapp mailed a questionnaire to students on the issue of academic dishonesty. Smidlapp planned to use inferential statistics in the analyses and was concerned about the response rate. You tell Smidlapp that technically the use of inferential s</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the steps involved in the execution of a self-administered survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q20_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_21" type="imsqti_item_xmlv2p1" href="Q21_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Interactive Voice Recognition is a developing technology in what current method of conducting survey research?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Summarize the steps involved in the execution of a telephone survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q21_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_22" type="imsqti_item_xmlv2p1" href="Q22_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is NOT recommended for conducting online surveys?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the advantages and disadvantages of online surveys.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q22_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_23" type="imsqti_item_xmlv2p1" href="Q23_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Donnelly wants to conduct a training session for new interviewers working on his project. Donnelly asks you to review his plan for the training session. After reviewing the plan you should tell Donnelly to exclude _______ from the session.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand which research projects are most suitable to each of the different survey methods.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q23_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_24" type="imsqti_item_xmlv2p1" href="Q24_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is a benefit of mail surveys over interview surveys?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand which research projects are most suitable to each of the different survey methods.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q24_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_25" type="imsqti_item_xmlv2p1" href="Q25_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Questionnaires can be both those that are mailed to the respondents and those administered on-site by a researcher.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss some of the key concerns in the construction of a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q25_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_26" type="imsqti_item_xmlv2p1" href="Q26_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Probes are used more frequently in open-ended questions than in closed-ended ones.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the steps involved in the execution of an interview survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q26_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_27" type="imsqti_item_xmlv2p1" href="Q27_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The interviewer should be a neutral medium through which questions and answers are transmitted.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe the steps involved in the execution of an interview survey.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q27_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_28" type="imsqti_item_xmlv2p1" href="Q28_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Secondary analysis refers to the analysis of data collected earlier by another researcher for some purpose other than the topic of the current study.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain what secondary analysis is and its key advantages and disadvantages.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q28_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_29" type="imsqti_item_xmlv2p1" href="Q29_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The biasing effect of a particular question’s wording is easily anticipated.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the key rules for asking questions in a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q29_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_30" type="imsqti_item_xmlv2p1" href="Q30_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A demonstrated lack of bias is more important than a high response rate.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the key rules for asking questions in a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q30_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_31" type="imsqti_item_xmlv2p1" href="Q31_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string> “Push polls” are useful for predicting what voters really think about candidates.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify research topics that are well suited for survey research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q31_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_32" type="imsqti_item_xmlv2p1" href="Q32_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Surveys are excellent devices for studying the context of social life.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify the key strengths and weaknesses of survey research in general.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q32_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_33" type="imsqti_item_xmlv2p1" href="Q33_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The best survey design involves fitting as many questions as possible on a single page in order to save time and cost.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss some of the key concerns in the construction of a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q33_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_34" type="imsqti_item_xmlv2p1" href="Q34_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Babbie’s recommendation is to place the demographic questions first in a printed questionnaire because they are the most inviting to a respondent.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss some of the key concerns in the construction of a survey questionnaire.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q34_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_35" type="imsqti_item_xmlv2p1" href="Q35_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Describe the strengths and weaknesses of survey research.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify the key strengths and weaknesses of survey research in general.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q35_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_36" type="imsqti_item_xmlv2p1" href="Q36_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>What are suggestions made in terms of including compensation with surveys? Which is the most effective way of doing so?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss some of the ethical problems that might be raised in survey research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q36_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_37" type="imsqti_item_xmlv2p1" href="Q37_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Explain the advantages and disadvantages associated with the different survey methods.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand which research projects are most suitable to each of the different survey methods.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q37_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_38" type="imsqti_item_xmlv2p1" href="Q38_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Dr. Mulligan wants to conduct a study on how attitudes about the use of birth control have changed in the United States. She intends to conduct a secondary data analysis using material from the General Social Survey (GSS). What are the advantages of using </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain what secondary analysis is and its key advantages and disadvantages.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q38_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_39" type="imsqti_item_xmlv2p1" href="Q39_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Please provide an example of a mixed-mode survey. Why is this approach becoming increasingly popular among researchers?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Provide examples of mixed-mode surveys and explain the advantages you might gain.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q39_Essay.xml" />
+    </resource>
+  </resources>
+</manifest>

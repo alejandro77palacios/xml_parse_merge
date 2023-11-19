@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="You are conducting a study of how effective a midnight basketball program is on reducing inner city juvenile crime. You measure the number of crimes reported to the police before and after the program is instituted, and you compare your findings to the cri" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>You are conducting a study of how effective a midnight basketball program is on reducing inner city juvenile crime. You measure the number of crimes reported to the police before and after the program is instituted, and you compare your findings to the crime rates in another city of similar size that does not have such a program. What is the experimental stimulus of your research?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The crime rate in the city without the basketball program</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>The crime rate in the city with the midnight basketball program</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>The number of kids who take part in the program</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>The midnight basketball program</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>The crime rate after the program was instituted</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

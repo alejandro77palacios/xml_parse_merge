@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item23" title="Which of the following statements about data entry is FALSE?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following statements about data entry is FALSE?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>There are many ways to enter data on the computer.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Optical scan sheets can be fed into machines that convert the marks into data.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Data entry can sometimes occur in the process of data collection.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Data entry specialists can enter data from a questionnaire into a data matrix or spreadsheet.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Data analysis can begin before data entry has begun.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

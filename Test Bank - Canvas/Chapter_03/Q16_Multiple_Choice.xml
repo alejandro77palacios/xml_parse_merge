@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item16" title="Which of the following is NOT an ethical concern raised by Laud Humphreys’ study of homosexual behavior in public restrooms?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following is NOT an ethical concern raised by Laud Humphreys’ study of homosexual behavior in public restrooms?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Humphreys deceived his subjects by offering to be watchqueen as if he were a member of the community.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Humphreys invaded the privacy of his subjects by looking up their license plates and identifying them.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Humphreys deceived his subjects by conducting a follow-up interview with his subjects while concealing his identity.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Humphreys completed the research in a public area where subjects had no expectation of privacy.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Humphreys did not identify himself as a researcher during the study.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="Tammy is creating a composite measure to examine life satisfaction and she is trying to decide whether to include the categories of very very dissatisfied and very very satisfied or to simply leave the extreme categories as very dissatisfied and very satis" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Tammy is creating a composite measure to examine life satisfaction and she is trying to decide whether to include the categories of very very dissatisfied and very very satisfied or to simply leave the extreme categories as very dissatisfied and very satisfied. She turns to you for help. Which of the following statements would not help her because it is FALSE?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>This is a variance issue.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Typically, as the possible extremes of an index are extended, fewer cases are to be found in each extreme.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>The range of measurement in an index is an advantage of an index and therefore she should include the most extreme categories to take advantage of the full range.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>She needs to think about both the range of her index and whether there will be an adequate number of cases at each point in the index.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>She needs to consider whether it adds important information to her study to know about the most extreme categories.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

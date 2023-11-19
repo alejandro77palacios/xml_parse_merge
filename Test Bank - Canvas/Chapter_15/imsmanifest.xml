@@ -1,0 +1,1184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ID_c2c3f49c-5d79-4936-a03b-3a4be20388a4" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsqti="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsmd_loose_v1p3p2.xsd http://www.imsglobal.org/xsd/imsqti_metadata_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_metadata_v2p1p1.xsd http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/qtiv2p1_imscpv1p2_v1p0.xsd http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd">
+  <metadata>
+    <schema>QTIv2.1 Package</schema>
+    <schemaversion>1.0.0</schemaversion>
+    <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+      <general>
+        <title>
+          <string>Chapter 15</string>
+        </title>
+        <language>en</language>
+      </general>
+      <metaMetadata xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <metadataschema>LOMv1.0</metadataschema>
+        <metadataschema>QTIv2.1</metadataschema>
+        <language>en</language>
+      </metaMetadata>
+    </lom>
+  </metadata>
+  <organizations />
+  <resources>
+    <resource identifier="ID_QTIExport_Resource_0" type="imsqti_item_xmlv2p1" href="Q0_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Walter discovered a strong positive relationship between parental engagement with their children and subsequent college success. He controlled for the educational level of parents and found the same relationship in all three partial tables for parental edu</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of replication.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q0_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_1" type="imsqti_item_xmlv2p1" href="Q1_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Smith found a relationship between education and occupation. However, when age was introduced as a test factor, the relationship between education and occupation disappeared in the partials. In Professor Smith's study, age was introduced as a(n):</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q1_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_2" type="imsqti_item_xmlv2p1" href="Q2_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Whenever partial relationships are essentially the same as the original relationship, the term assigned to the result, regardless of whether the test variable is antecedent or intervening, is a(n):</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of replication.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q2_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_3" type="imsqti_item_xmlv2p1" href="Q3_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Suppose we observed that the more firefighters there were at a fire site, the greater the amount of fire damage. Suppose we also observed that the size of the fire was related to both the amount of damage and the number of firefighters present. The relatio</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q3_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_4" type="imsqti_item_xmlv2p1" href="Q4_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A zero-order relationship means that:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q4_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_5" type="imsqti_item_xmlv2p1" href="Q5_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The variable held constant in the elaboration model to determine the relationship between others is a(n):</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q5_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_6" type="imsqti_item_xmlv2p1" href="Q6_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The relationship between IQ and shoe size, with no other variables measured, is an example of a(n):</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q6_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_7" type="imsqti_item_xmlv2p1" href="Q7_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Interpretation differs from explanation when it comes to:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of interpretation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q7_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_8" type="imsqti_item_xmlv2p1" href="Q8_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A relationship was found between education and income. Tables A and B are the partials controlling for sex. What do these tables indicate?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of specification.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q8_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_9" type="imsqti_item_xmlv2p1" href="Q9_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The particular value of the elaboration model is to show</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q9_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_10" type="imsqti_item_xmlv2p1" href="Q10_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The elaboration model examines the impact of other variables on the:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q10_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_11" type="imsqti_item_xmlv2p1" href="Q11_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Caitlin studied the relationship between gender and adjustment to retirement. She controlled for type of job before retirement and set up tables relating gender to retirement adjustment for each of her three categories of job type before retirement. The re</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q11_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_12" type="imsqti_item_xmlv2p1" href="Q12_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>To begin the elaboration paradigm, we must know whether the test variable</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q12_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_13" type="imsqti_item_xmlv2p1" href="Q13_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Naoko performed a research project on community perceptions of police officer discretion, and after observing the empirical relationship, she created a hypothesis that explained the relationship between the variables. She engaged in:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q13_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_14" type="imsqti_item_xmlv2p1" href="Q14_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Stephen found a strong positive relationship between participation in high school extracurricular activities and community involvement as adults. He controlled for gender and got the same relationship between high school extracurricular activities and comm</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of replication.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q14_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_15" type="imsqti_item_xmlv2p1" href="Q15_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Forrester found a strong positive relationship between participation in high school extracurricular activities and community involvement as adults. He controlled for gender and the relationship between high school extracurricular activities and community i</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q15_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_16" type="imsqti_item_xmlv2p1" href="Q16_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Forrester found a strong positive relationship between participation in high school extracurricular activities and community involvement as adults. He controlled for amount of college and the relationship between high school extracurricular activities and </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of interpretation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q16_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_17" type="imsqti_item_xmlv2p1" href="Q17_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Forrester found a strong positive relationship between participation in high school extracurricular activities and community involvement as adults. He controlled for gender, and the relationship between high school extracurricular activities and community </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of specification.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q17_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_18" type="imsqti_item_xmlv2p1" href="Q18_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Forrester found a strong positive relationship between participation in high school extracurricular activities and community involvement as adults. He controlled for amount of college and the relationship between high school extracurricular activities and </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of specification.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q18_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_19" type="imsqti_item_xmlv2p1" href="Q19_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which one of the following is the term used to describe a spurious relationship?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q19_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_20" type="imsqti_item_xmlv2p1" href="Q20_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Mabel did a study on regional differences in Christmas gift-giving and, after observing the empirical relationship, she developed a hypothesis to explain the relationship. Mabel was engaging in:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the risk of ex post facto hypothesizing.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q20_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_21" type="imsqti_item_xmlv2p1" href="Q21_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The key to making ex post facto hypothesizing legitimate is that:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the risk of ex post facto hypothesizing.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q21_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_22" type="imsqti_item_xmlv2p1" href="Q22_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>When partial relationships and original relationships are essentially the same, it is an example of:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of replication.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q22_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_23" type="imsqti_item_xmlv2p1" href="Q23_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Studying the relationship between parental supervision and juvenile delinquency, Maria found a strong relationship between the two. She then introduced a third variable, education, and the partials still showed a strong relationship between supervision and</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of replication.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q23_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_24" type="imsqti_item_xmlv2p1" href="Q24_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In conducting a project to study the relationship between number of criminal offenses committed and education, a researcher introduces the variable of age. When this was done, the relationship between education and crime disappeared. What type of research </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q24_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_25" type="imsqti_item_xmlv2p1" href="Q25_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>When using the elaboration paradigm, you should always begin with an observed relationship.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q25_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_26" type="imsqti_item_xmlv2p1" href="Q26_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The elaboration model can only be used on dichotomous variables.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q26_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_27" type="imsqti_item_xmlv2p1" href="Q27_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The acceptance of a hypothesis is really a function of the extent to which it has been tested and not disconfirmed.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the risk of ex post facto hypothesizing.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q27_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_28" type="imsqti_item_xmlv2p1" href="Q28_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Ex post facto hypothesizing refers to the development of hypotheses "predicting" relationships that have already been observed in the data.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the risk of ex post facto hypothesizing.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q28_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_29" type="imsqti_item_xmlv2p1" href="Q29_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Explanation is the term used to describe a spurious relationship.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of explanation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q29_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_30" type="imsqti_item_xmlv2p1" href="Q30_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The term “specification” is used in the elaboration model regardless of whether the test variable is antecedent or intervening.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of specification.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q30_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_31" type="imsqti_item_xmlv2p1" href="Q31_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Good researchers always avoid ex post facto hypothesizing.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the risk of ex post facto hypothesizing.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q31_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_32" type="imsqti_item_xmlv2p1" href="Q32_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The purpose of the elaboration model is to provide a way to examine relationships that may be causal.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q32_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_33" type="imsqti_item_xmlv2p1" href="Q33_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>When the partial relationship is essentially the same as the original relationship, the term “specification” is applied to the result.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of specification.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q33_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_34" type="imsqti_item_xmlv2p1" href="Q34_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Interpretation only differs from explanation when it comes to the level of measurement used.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of interpretation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q34_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_35" type="imsqti_item_xmlv2p1" href="Q35_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Having observed an empirical relationship between two variables, we seek to understand the nature of that relationship through the effects produced by introducing other variables. In view of this, what is the basic form of the elaboration model?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the purpose of the elaboration model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q35_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_36" type="imsqti_item_xmlv2p1" href="Q36_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>What is meant by ex post facto hypothesizing? Why does it sometimes mislead inexperienced researchers?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain the risk of ex post facto hypothesizing.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q36_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_37" type="imsqti_item_xmlv2p1" href="Q37_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which elaboration paradigm is used to describe the situation when an elaboration test identifies partial relationships that are different from each other? Give an example and interpret the results.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of specification.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q37_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_38" type="imsqti_item_xmlv2p1" href="Q38_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Compare and contrast explanation and interpretation. Give examples of both.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of explanation.</string>
+              <string>Give an example of interpretation.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q38_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_39" type="imsqti_item_xmlv2p1" href="Q39_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>What is a replication in the elaboration model? What does it tell you about the relationships uncovered in the original analysis?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give an example of replication.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q39_Essay.xml" />
+    </resource>
+  </resources>
+</manifest>

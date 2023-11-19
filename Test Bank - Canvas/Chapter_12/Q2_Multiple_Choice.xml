@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item2" title="Pregnant women planning to deliver their baby in hospital A were given a poison control test. After the delivery of their baby, the new moms attended a two-hour training session on poison control. One week later, at the baby's one-week check-up exam, the n" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Pregnant women planning to deliver their baby in hospital A were given a poison control test. After the delivery of their baby, the new moms attended a two-hour training session on poison control. One week later, at the baby's one-week check-up exam, the new moms retook the poison control test. Located in the same city, pregnant women planning to deliver their baby in hospital B were given a poison control test. One week later, at the baby's one-week check-up exam, these new moms retook the poison control test. What design is being used?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Pretest–posttest control group</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Time series</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Nonequivalent control group</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Cross-sectional design</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Multiple time series</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

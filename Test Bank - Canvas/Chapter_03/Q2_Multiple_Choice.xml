@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item2" title="Which of the following statements is NOT found in the AAPOR Code of Professional Ethics and Practice?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following statements is NOT found in the AAPOR Code of Professional Ethics and Practice?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>We shall correct any errors in our own work that come to our attention, which could influence interpretation of the results, disseminating such corrections to all original recipients of our content.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>We shall select research tools and methods of analysis because of their special capacity to yield a desired conclusion.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>We shall protect the anonymity of every respondent, unless the respondent waives such anonymity for specified uses.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>We shall not knowingly imply that interpretations should be accorded greater confidence than the data actually warrant.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>We shall respect the respondents’ desires, when expressed, not to answer specific survey questions or provide other information to the researcher.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

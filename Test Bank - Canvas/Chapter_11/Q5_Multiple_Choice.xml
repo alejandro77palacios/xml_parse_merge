@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item5" title="In a study of two magazines, Marie found that the first magazine had 150 uses of male pronouns (he, him, etc.) but only 75 uses of female pronouns (she, her, etc.). The second magazine had 200 uses of male pronouns and 205 uses of female ones. What can be " adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>In a study of two magazines, Marie found that the first magazine had 150 uses of male pronouns (he, him, etc.) but only 75 uses of female pronouns (she, her, etc.). The second magazine had 200 uses of male pronouns and 205 uses of female ones. What can be concluded from her work?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Magazine 1 was twice as sexist as magazine 2.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Magazine 2 was not sexist.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Magazine 2 was half as sexist as magazine 1.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Magazine 2 had 130 more female pronouns.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Magazine 1 was sexist.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

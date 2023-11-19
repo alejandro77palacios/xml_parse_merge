@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ID_65914945-96d1-44fb-aa19-f037bd1cf239" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsqti="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsmd_loose_v1p3p2.xsd http://www.imsglobal.org/xsd/imsqti_metadata_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_metadata_v2p1p1.xsd http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/qtiv2p1_imscpv1p2_v1p0.xsd http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd">
+  <metadata>
+    <schema>QTIv2.1 Package</schema>
+    <schemaversion>1.0.0</schemaversion>
+    <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+      <general>
+        <title>
+          <string>Chapter 08</string>
+        </title>
+        <language>en</language>
+      </general>
+      <metaMetadata xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <metadataschema>LOMv1.0</metadataschema>
+        <metadataschema>QTIv2.1</metadataschema>
+        <language>en</language>
+      </metaMetadata>
+    </lom>
+  </metadata>
+  <organizations />
+  <resources>
+    <resource identifier="ID_QTIExport_Resource_0" type="imsqti_item_xmlv2p1" href="Q0_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Among the requirements for the classical experimental design is a posttest measurement of the:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Diagram and explain the key elements in the classical experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q0_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_1" type="imsqti_item_xmlv2p1" href="Q1_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The Solomon four-group design utilizes how many control groups?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q1_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_2" type="imsqti_item_xmlv2p1" href="Q2_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In order to ensure that experimental and control groups are similar before the experiment begins, social scientists do all of the following EXCEPT:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss three methods for selecting and assigning subjects in an experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q2_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_3" type="imsqti_item_xmlv2p1" href="Q3_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The double-blind experiment is one in which:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Diagram and explain the key elements in the classical experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q3_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_4" type="imsqti_item_xmlv2p1" href="Q4_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A friend of yours, a senior, took the Graduate Record Exam in September and scored in the 99th percentile. In February, your friend took the same exam over again. This time your friend scored in the 90th percentile. As a research methods student, you told</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Provide examples illustrating the use of the experimental model in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q4_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_5" type="imsqti_item_xmlv2p1" href="Q5_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following experimental designs has the least explanatory power compared with the others?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q5_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_6" type="imsqti_item_xmlv2p1" href="Q6_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>An instrumentation effect occurs when:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q6_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_7" type="imsqti_item_xmlv2p1" href="Q7_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The experimental and control groups should be comparable on:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Diagram and explain the key elements in the classical experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q7_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_8" type="imsqti_item_xmlv2p1" href="Q8_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The classical experimental design:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and discuss both the strengths and weaknesses of experiments in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q8_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_9" type="imsqti_item_xmlv2p1" href="Q9_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Experiments are especially appropriate for research projects involving all of the following EXCEPT:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give examples of topics well suited to experimental studies and topics that would not be appropriate.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q9_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_10" type="imsqti_item_xmlv2p1" href="Q10_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Without randomly assigning subjects, a researcher administers the experimental stimulus to the experimental group and then measures the dependent variable in both the experimental and control groups. This design is known as the:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss three methods for selecting and assigning subjects in an experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q10_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_11" type="imsqti_item_xmlv2p1" href="Q11_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The question of internal invalidity refers to:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and discuss both the strengths and weaknesses of experiments in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q11_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_12" type="imsqti_item_xmlv2p1" href="Q12_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following would constitute a “natural” experiment?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe what is meant by “natural” experiments, giving examples to illustrate.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q12_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_13" type="imsqti_item_xmlv2p1" href="Q13_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>What is the biggest weakness of the use of laboratory experiments in social research?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and discuss both the strengths and weaknesses of experiments in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q13_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_14" type="imsqti_item_xmlv2p1" href="Q14_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Many university-based social science researchers use students in their classes as research subjects when they conduct experiments. How does this affect the generalizability of the results of the research?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss three methods for selecting and assigning subjects in an experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q14_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_15" type="imsqti_item_xmlv2p1" href="Q15_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In Professor John’s three-week experiment, the control group has realized that the experimental group is being exposed to lavish lunches as part of the experiment, while they are stuck with plain microwaved meals. In protest, they have decided to stop full</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Identify and discuss both the strengths and weaknesses of experiments in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q15_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_16" type="imsqti_item_xmlv2p1" href="Q16_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Preexperimental designs:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q16_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_17" type="imsqti_item_xmlv2p1" href="Q17_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The Solomon four-group design:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q17_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_18" type="imsqti_item_xmlv2p1" href="Q18_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The difference between the experimental and control group should be:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Diagram and explain the key elements in the classical experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q18_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_19" type="imsqti_item_xmlv2p1" href="Q19_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>An experiment examines the effect of the:</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Diagram and explain the key elements in the classical experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q19_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_20" type="imsqti_item_xmlv2p1" href="Q20_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>You were asked to participate in an experiment to test the effectiveness of review sessions on exam grades. As a research methods student, you concluded that you had been assigned to the control group because you simply took the scheduled exams. Since you </string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q20_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_21" type="imsqti_item_xmlv2p1" href="Q21_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Kyo is looking to perform a quick research study to determine the effects of a documentary about domestic violence on people’s perceptions of violence. His experiment consists of administering a brief survey to a group, having them watch a movie, then surv</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Provide examples illustrating the use of the experimental model in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q21_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_22" type="imsqti_item_xmlv2p1" href="Q22_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Jimmy’s experiment requires him to tell subjects that they will be working in pairs to solve a problem when in reality he does not care about problem-solving. Jimmy is really observing the nonverbal communication between two people who do not know each oth</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain some of the ethical issues involved in the use of the experimental model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q22_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_23" type="imsqti_item_xmlv2p1" href="Q23_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Maria conducted an experiment to determine whether showing college students a video about the origins of racial prejudice decreases their level of prejudice. She gave the experimental group a pretest to measure their level of prejudice, showed them the fil</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Provide examples illustrating the use of the experimental model in social research.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q23_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_24" type="imsqti_item_xmlv2p1" href="Q24_Multiple_Choice.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Which of the following is NOT a type of preexperimental research design?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q24_Multiple_Choice.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_25" type="imsqti_item_xmlv2p1" href="Q25_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>In a natural experiment, the researcher does NOT manipulate the independent variable.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe what is meant by “natural” experiments, giving examples to illustrate.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q25_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_26" type="imsqti_item_xmlv2p1" href="Q26_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The use of an experimental group allows the researcher to control for the effects of the experiment itself.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Diagram and explain the key elements in the classical experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q26_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_27" type="imsqti_item_xmlv2p1" href="Q27_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>It has been suggested that within a large enough experiment and with truly randomized assignment to experimental and control groups, a pretest is unnecessary.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q27_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_28" type="imsqti_item_xmlv2p1" href="Q28_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The effectiveness of randomization in experimentation is affected by the number of subjects involved.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss three methods for selecting and assigning subjects in an experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q28_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_29" type="imsqti_item_xmlv2p1" href="Q29_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>For the most part, preexperimental designs are simplified forms of the traditional experiment.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q29_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_30" type="imsqti_item_xmlv2p1" href="Q30_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Researchers tend to use probability sampling to recruit subjects for the experimental and control groups.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss three methods for selecting and assigning subjects in an experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q30_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_31" type="imsqti_item_xmlv2p1" href="Q31_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>The double-blind experiment attempts to guard against experimenter bias.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Diagram and explain the key elements in the classical experiment.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q31_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_32" type="imsqti_item_xmlv2p1" href="Q32_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Because experiments focus on determining causation, they are better suited to descriptive purposes rather than explanatory purposes.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give examples of topics well suited to experimental studies and topics that would not be appropriate.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q32_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_33" type="imsqti_item_xmlv2p1" href="Q33_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>A fully representative sample is not as essential in experimental research, because we are measuring effects on the individual, not the individual themselves.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the advantages and disadvantages of Web-based experiments.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q33_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_34" type="imsqti_item_xmlv2p1" href="Q34_True_False.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Typically, research on the World Wide Web involves representative samples.</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the advantages and disadvantages of Web-based experiments.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q34_True_False.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_35" type="imsqti_item_xmlv2p1" href="Q35_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Professor Rose was asked to design an experiment to test whether obese people would lose weight on a Pickup diet plan. Professor Rose was not a methodologist. Rose asked for your help. You immediately told Rose that the selected design would have to be sen</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Understand several types of experimental designs.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q35_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_36" type="imsqti_item_xmlv2p1" href="Q36_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Explain how a natural experiment differs from a traditional one. What are the advantages and shortcomings of using them?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Describe what is meant by “natural” experiments, giving examples to illustrate.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q36_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_37" type="imsqti_item_xmlv2p1" href="Q37_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Provide an example of a topic that would be well suited to an experimental study and an example of a topic that would not be well suited to an experimental study. What makes a study appropriate for experimental research?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Give examples of topics well suited to experimental studies and topics that would not be appropriate.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q37_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_38" type="imsqti_item_xmlv2p1" href="Q38_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Deception is often an important part of experimental research design. What are the ethical implications of using deception in your experiment? How do researchers decide whether to use deception?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Explain some of the ethical issues involved in the use of the experimental model.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q38_Essay.xml" />
+    </resource>
+    <resource identifier="ID_QTIExport_Resource_39" type="imsqti_item_xmlv2p1" href="Q39_Essay.xml">
+      <metadata>
+        <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+          <general>
+            <title>
+              <string>Identify and explain two advantages and two disadvantages of Web-based experiments. What kinds of topics are Web-based experiments best used for?</string>
+            </title>
+          </general>
+          <educational>
+            <description>
+              <string>Discuss the advantages and disadvantages of Web-based experiments.</string>
+            </description>
+            <intendedEndUserRole>
+              <value>teacher</value>
+            </intendedEndUserRole>
+            <context />
+          </educational>
+          <imsqti:qtiMetadata>
+            <imsqti:interactionType>extendedTextInteraction</imsqti:interactionType>
+            <imsqti:itemTemplate>false</imsqti:itemTemplate>
+            <imsqti:timeDependent>false</imsqti:timeDependent>
+            <imsqti:composite>false</imsqti:composite>
+            <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            <imsqti:feedbackType>none</imsqti:feedbackType>
+          </imsqti:qtiMetadata>
+        </lom>
+      </metadata>
+      <file href="Q39_Essay.xml" />
+    </resource>
+  </resources>
+</manifest>

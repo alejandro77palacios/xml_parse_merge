@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item22" title="According to Berg, which of the following statements is FALSE regarding negative case testing?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>According to Berg, which of the following statements is FALSE regarding negative case testing?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>It can be used as a technique for qualitative hypothesis testing.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>It begins with an examination of the data to find a general hypothesis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>It requires you to search your data to find all the cases that contradict your initial hypothesis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>It requires you to reexamine all the cases that led you to form the initial hypothesis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>It is an example of analytic induction.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

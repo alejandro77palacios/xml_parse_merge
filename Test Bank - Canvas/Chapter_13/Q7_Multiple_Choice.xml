@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item7" title="Professor Dahl was using NVivo for an analysis of relationships. Dahl created a node called &quot;friendship&quot; and then created a node called &quot;same-sex&quot; and another node called opposite-sex&quot; under &quot;friendship.&quot; Dahl was creating:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Professor Dahl was using NVivo for an analysis of relationships. Dahl created a node called "friendship" and then created a node called "same-sex" and another node called opposite-sex" under "friendship." Dahl was creating:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>nodes.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>axial codes.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>memoing.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>concept mapping.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>semiotic analysis.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

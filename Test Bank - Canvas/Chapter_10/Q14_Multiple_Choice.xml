@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item14" title="Jenny wants to do research that tells the stories of rape victims. She wants to tell &amp;quot;their stories&amp;quot; the way they &amp;quot;really are.&amp;quot; Jenny is using a _____ paradigm." adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Jenny is planning a study about flat earthers or people who believe that the earth is flat. Rather than evaluating the validity of the abnormal views, Jenny plans on interviewing and spending time with this community in order to let them tell their story. She is primarily interested in the research participants’ perception of the world. Jenny’s proposed study falls within the qualitative research paradigm of _____.</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>naturalism</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>ethnomethodology</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>grounded theory</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>case studies</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>reactivity</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

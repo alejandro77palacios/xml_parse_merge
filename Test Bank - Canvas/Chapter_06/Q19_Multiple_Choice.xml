@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item19" title="A Thurstone scale was constructed to measure creativity. The scale scores ranged from 1 to 13. If the scale was properly constructed we could conclude that:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>A Thurstone scale was constructed to measure creativity. The scale scores ranged from 1 to 13. If the scale was properly constructed we could conclude that:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>a person with a score of 6 was three times as creative as a person with a score of 2.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>a person with a score of 6 was more creative than a person with a score of 5.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>a person with a score of 5 was half as creative as someone with a score of 10.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>you cannot make any conclusions with a Thurstone scale.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>a person with a score of 6 was half as creative as someone with a score of 10.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

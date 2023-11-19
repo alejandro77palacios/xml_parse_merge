@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item11" title="After examining the FBI Crime Reports for a 30-year period, Professor Hall claimed that the incidence of rape has increased. After examining the same reports, Professor Shine claimed that the reporting of rape, not the incidence of rape, has increased. Thi" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>After examining the FBI Crime Reports for a 30-year period, Professor Hall claimed that the incidence of rape has increased. After examining the same reports, Professor Shine claimed that the reporting of rape, not the incidence of rape, has increased. This illustrates:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>the problem of reliability in using existing statistics.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>the problem of validity in using existing statistics.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>the need to replicate existing statistics.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>the ecological fallacy.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>pretesting.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

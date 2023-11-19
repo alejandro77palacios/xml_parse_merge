@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item3" title="A codebook contains the following information:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>A codebook contains the following information:</span>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <p>COLUMNS</p>
+              </td>
+              <td>
+                <p>DESCRIPTION</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>1-4</p>
+              </td>
+              <td>
+                <p>Case Number (a random identification number between 0001 and 9999)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>4</p>
+              </td>
+              <td>
+                <p>Sex 1=Male 2=Female</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>5</p>
+              </td>
+              <td>
+                <p>Metropolitan Area of Residence 1=New York 2=Boston 3=Baltimore/Washington DC 4=Atlanta 5=Orlando 6=Tampa 7=Miami 8=Unknown 9=Missing</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>​</p>
+        <p>
+          <span>Following this codebook, an individual assigned the number 283921 is:</span>
+        </p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>the 2839th participant that is female residing in New York.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>the 2839th participant that is male residing in Boston.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>a female participant residing in Boston assigned the ID number 2839.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>a male participant residing in New York.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>a female participant residing in New York.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

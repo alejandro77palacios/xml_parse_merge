@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item13" title="During an interviewer training session, Jones, a trainee, asks you, &quot;What should I do if …?&quot; You tell Jones:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>During an interviewer training session, Jones, a trainee, asks you, "What should I do if …?" You tell Jones:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>check the specifications.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>do whatever you think is most appropriate in that situation.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>it will not happen.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>call me, if it happens.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>jot down problems and skip that part of the interview.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

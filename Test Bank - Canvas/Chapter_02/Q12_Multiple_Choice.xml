@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="The Minamata disease, a disease which produced severe nervous disorders and birth defects, was traced to the fact that the Chisso chemical company dumped mercury into a bay where Japanese villagers fished. The villagers of Minamata, where the company was l" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>The Minamata disease, a disease which produced severe nervous disorders and birth defects, was traced to the fact that the Chisso chemical company dumped mercury into a bay where Japanese villagers fished. The villagers of Minamata, where the company was located, refused to sue the chemical company. However, the residents of Niigata, a fishing village forty miles up the river from the factory, sued the chemical company. Which of the following explanations flows from the conflict paradigm?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The Minamata victims were less likely to be tied socially, economically, and physically to the company than were the Niigato victims.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>The Japanese culture frowns on lawsuits.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>The chemical company controlled more of the village resources in Minamata than in Niigato.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>People in Niigato aren't as nice as people in Minamata.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>There were fewer victims in Minamata than in Niigato.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

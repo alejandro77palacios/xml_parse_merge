@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item9" title="Maureen is performing a study in which she interviews disabled military veterans about how they are adapting to being back home. She is focusing on questions about what it means to be perceived by others as both &quot;disabled&quot; and a &quot;veteran.&quot; What paradigm is" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Maureen is performing a study in which she interviews disabled military veterans about how they are adapting to being back home. She is focusing on questions about what it means to be perceived by others as both "disabled" and a "veteran." What paradigm is Maureen's work most likely shaped by?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Ethnomethodology</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Critical race</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Symbolic interactionism</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Structural functionalism</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Conflict</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

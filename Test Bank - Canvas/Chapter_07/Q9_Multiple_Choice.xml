@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item9" title="Dr. Smith is instructing his graduate students to put together a sample for an upcoming research study of college students. The graduate students were asked to stand outside of the student union to solicit participants, finding 50 freshmen, 50 sophomores, " adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Dr. Smith is instructing his graduate students to put together a sample for an upcoming research study of college students. The graduate students were asked to stand outside of the student union to solicit participants, finding 50 freshmen, 50 sophomores, 50 juniors, and 50 seniors. What sort of sampling method is being used?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Simple random sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Quota sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Cluster sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Stratified sampling</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Accidental sampling</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

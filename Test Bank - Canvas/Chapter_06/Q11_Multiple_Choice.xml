@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item11" title="Using Likert-type scale items, Professor Wong developed an index to assess job morale. Wong administered the index to 2,000 workers and found that 1 to 4 responses were missing on each of the items. Which of the following should Wong NOT do to correct this" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Using Likert-type scale items, Professor Wong developed an index to assess job morale. Wong administered the index to 2,000 workers and found that 1 to 4 responses were missing on each of the items. Which of the following should Wong NOT do to correct this situation?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Exclude the cases that contained the missing data from the analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Assign the middle value to cases with missing data.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Analyze the cases that had missing data to interpret their meaning.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Assign values at random.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Readminister the study.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

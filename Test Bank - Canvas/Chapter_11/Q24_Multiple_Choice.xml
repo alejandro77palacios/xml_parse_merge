@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item24" title="Thomas is concerned that in his content analysis he is misclassifying observations to support his emerging hypothesis. He turns to you for help. Which of the following suggestions would be POOR advice?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Thomas is concerned that in his content analysis he is misclassifying observations to support his emerging hypothesis. He turns to you for help. Which of the following suggestions would be POOR advice?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>If there are enough cases, select some at random from each category to avoid picking those that best support the hypothesis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Give at least three examples in support of every claim that you make about the data.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Ask others who are not involved in your research to review your analytic interpretations to see if they agree.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Realize that few social patterns are 100 percent consistent and so don't worry about reporting inconsistencies.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Ask other researchers who are not involved in your research to test your coding system to see if your results agree.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

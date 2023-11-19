@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item23" title="Maria conducted an experiment to determine whether showing college students a video about the origins of racial prejudice decreases their level of prejudice. She gave the experimental group a pretest to measure their level of prejudice, showed them the fil" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Maria conducted an experiment to determine whether showing college students a video about the origins of racial prejudice decreases their level of prejudice. She gave the experimental group a pretest to measure their level of prejudice, showed them the film, and then gave them a posttest to again measure their level of prejudice. The control group saw a wildlife film and took the pretest and posttest. The results of the study showed that watching the video about the origins of racial prejudice decreased the prejudice of the experimental group compared to the control group. What might be a source of external invalidity for Maria’s study?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The pretest might have sensitized the students to their prejudice, so they changed their answers for the posttest.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>An event might have occurred during the course of the experiment that affected the experimental group’s views of racial prejudice.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Statistical regression may have affected the experimental group.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>There may have been selection biases that affected the control group.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>The pretest might have sensitized the experimental group members to their bias, so they were more impacted by the film.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

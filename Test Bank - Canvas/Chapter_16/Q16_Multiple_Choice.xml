@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item16" title="Given the following computer printout from a factor analysis, which of the following statements is TRUE?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Given the following computer printout from a factor analysis, which of the following statements is TRUE?</span>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <p>​</p>
+              </td>
+              <td>
+                <p>1</p>
+              </td>
+              <td>
+                <p>2</p>
+              </td>
+              <td>
+                <p>3</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>1.</p>
+              </td>
+              <td>
+                <p>.89</p>
+              </td>
+              <td>
+                <p>.05</p>
+              </td>
+              <td>
+                <p>.22</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>2.</p>
+              </td>
+              <td>
+                <p>.78</p>
+              </td>
+              <td>
+                <p>.04</p>
+              </td>
+              <td>
+                <p>.13</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>3.</p>
+              </td>
+              <td>
+                <p>.15</p>
+              </td>
+              <td>
+                <p>.64</p>
+              </td>
+              <td>
+                <p>.11</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>4.</p>
+              </td>
+              <td>
+                <p>.76</p>
+              </td>
+              <td>
+                <p>.23</p>
+              </td>
+              <td>
+                <p>.05</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>5.</p>
+              </td>
+              <td>
+                <p>.03</p>
+              </td>
+              <td>
+                <p>.72</p>
+              </td>
+              <td>
+                <p>.03</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>6.</p>
+              </td>
+              <td>
+                <p>.01</p>
+              </td>
+              <td>
+                <p>.53</p>
+              </td>
+              <td>
+                <p>.19</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>7.</p>
+              </td>
+              <td>
+                <p>.01</p>
+              </td>
+              <td>
+                <p>.02</p>
+              </td>
+              <td>
+                <p>.03</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>​</p>
+        <p>​</p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>There are seven factors.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>There are seven variables.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Factor #7 could be eliminated from the analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Variable #2 is most important for factor #2.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Variable #3 tells us nothing.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

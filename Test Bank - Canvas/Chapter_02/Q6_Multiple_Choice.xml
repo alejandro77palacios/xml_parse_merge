@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item6" title="Which of the following is NOT TRUE of paradigms?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following is NOT TRUE of paradigms?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Paradigms shape the kinds of observations we are likely to make.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Paradigms determine the kinds of facts we will discover.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Paradigms shape the conclusions that we draw from facts.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Paradigms determine whether we look at micro or macro concerns.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Paradigms are selected by a researcher to achieve desired results.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

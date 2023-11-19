@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item15" title="Which of the following statements is FALSE about the logic of ANOVA?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following statements is FALSE about the logic of ANOVA?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The cases under study are combined into groups representing an independent variable.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>The extent to which groups differ from one another is analyzed in terms of some dependent variable.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>The extent to which the groups differ is compared with the standard random distribution.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Only one explanatory variable can be used in an ANOVA analysis.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>More than one explanatory variable can be used in an ANOVA analysis.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

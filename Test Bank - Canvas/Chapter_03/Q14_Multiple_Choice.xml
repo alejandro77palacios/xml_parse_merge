@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item14" title="Which of the following is NOT an essential component of informed consent?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following is NOT an essential component of informed consent?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Disclosure of any potential risks associated with the research</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>A description of the possible benefits to science and society</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>A statement that once they begin participation, they cannot quit</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>A statement that participation in the project is voluntary</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>A statement of any provisions for confidentiality or anonymity</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item2" title="A codebook contains the following information:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>A codebook contains the following information:</span>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <p>COLUMNS</p>
+              </td>
+              <td>
+                <p>DESCRIPTION</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>1-3</p>
+              </td>
+              <td>
+                <p>I.D. # (assign each respondent a unique 3-digit ID# from 001 to 851)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>4</p>
+              </td>
+              <td>
+                <p>Sex 1=Male 2=Female</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>5</p>
+              </td>
+              <td>
+                <p>Class Standing 1=freshman 2=sophomore 3=junior 4=senior 5=transfer 6=don't know 7=no answer 8=refused</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>​</p>
+        <p>
+          <span>Which statement concerning the codebook is TRUE?</span>
+        </p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The codebook contains three variables.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>ID number has been coded so that the categories are mutually exclusive but not exhaustive.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Class standing has been coded so that the categories are mutually exclusive and exhaustive.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>The codebook contains four variables.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>ID number has been coded so that the categories are exhaustive but not mutually exclusive.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

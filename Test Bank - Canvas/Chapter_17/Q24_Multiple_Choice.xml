@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item24" title="Which of the following statements is FALSE concerning data on the web?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following statements is FALSE concerning data on the web?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Information on the web is available to a large proportion of the population.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Information that is placed on the web is typically screened for accuracy.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Out-of-date data may be reported on the web.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>University research centers are usually committed to peer review.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>US Government websites are good sources of information.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

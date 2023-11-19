@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item18" title="What ethical issue did Stanley Milgram’s work on obedience to authority and Laud Humphreys’ work on homosexual behavior have in common?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>What ethical issue did Stanley Milgram’s work on obedience to authority and Laud Humphreys’ work on homosexual behavior have in common?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>There were no ethical issues in either researcher’s work.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Both forced participants to be a part of their studies.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Both were accused of psychologically harming test subjects.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Both used deception in a way that was potentially damaging to their subjects.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Both misrepresented their research findings when they published.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

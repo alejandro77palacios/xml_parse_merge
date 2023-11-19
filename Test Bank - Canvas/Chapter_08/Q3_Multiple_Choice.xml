@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item3" title="The double-blind experiment is one in which:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>The double-blind experiment is one in which:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>the experimenters do not know which is the experimental group and which is the control group.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>the experimental group subjects do not know that they are in the experimental group, and the control group subjects know that they are in the control group.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>neither the subjects in the experimental or control groups nor the experimenters know which are the experimental and control groups.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>the control group subjects do not know that they are in the control group, and the experimental group subjects know that they are in the experimental group.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>the experimental and control groups are given placebos.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

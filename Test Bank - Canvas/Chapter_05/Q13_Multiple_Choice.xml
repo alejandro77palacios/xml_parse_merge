@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item13" title="Professor Miller argues that there are three dimensions to the quality of a relationship (belonging/affirmation, interdependence, and intimacy). Miller designed an instrument to measure the quality of a relationship. She notices that no items in the instru" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Professor Miller argues that there are three dimensions to the quality of a relationship (belonging/affirmation, interdependence, and intimacy). Miller designed an instrument to measure the quality of a relationship. She notices that no items in the instrument tap the intimacy dimension. Her measure lacks:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>reliability.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>content validity.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>predictive validity.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>construct validity.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>internal consistency.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

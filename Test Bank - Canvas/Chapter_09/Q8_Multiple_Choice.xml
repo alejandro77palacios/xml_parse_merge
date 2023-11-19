@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item8" title="One of the most important abilities that good interviewers have is the ability to:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>One of the most important abilities that good interviewers have is the ability to:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>dress in expensive, well-tailored clothes.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>determine very quickly the kind of person with whom the respondent feels most comfortable.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>rephrase questions in their own words.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>probe for responses.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>pry into the respondent’s personal life.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

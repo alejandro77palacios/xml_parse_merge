@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item17" title="Which of the following is NOT suggested by Babbie for citing Internet materials?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following is NOT suggested by Babbie for citing Internet materials?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Include the URL or web address</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Include the time and date when the site was accessed</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Cite the author and title for published journal articles only</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Cite the page numbers, if available, for published journal article that you read on the web.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Cite published online journal articles as you would printed materials.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

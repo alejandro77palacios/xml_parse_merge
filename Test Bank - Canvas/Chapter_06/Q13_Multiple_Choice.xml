@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item13" title="Given the following patterns for a Guttman scale on life satisfaction, the coefficient of reproducibility (is):" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Given the following patterns for a Guttman scale on life satisfaction, the coefficient of reproducibility (is):</span>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <p>​</p>
+              </td>
+              <td>
+                <p>HEALTH</p>
+              </td>
+              <td>
+                <p>HOBBIES</p>
+              </td>
+              <td>
+                <p>CITY</p>
+              </td>
+              <td>
+                <p>Number of Cases</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>A + +</p>
+              </td>
+              <td>
+                <p>+</p>
+              </td>
+              <td>
+                <p>+</p>
+              </td>
+              <td>
+                <p>+</p>
+              </td>
+              <td>
+                <p>100</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>B</p>
+              </td>
+              <td>
+                <p>+</p>
+              </td>
+              <td>
+                <p>+</p>
+              </td>
+              <td>
+                <p>
+                  <span>−</span>
+                </p>
+              </td>
+              <td>
+                <p>75</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>C</p>
+              </td>
+              <td>
+                <p>+</p>
+              </td>
+              <td>
+                <p>
+                  <span>−</span>
+                </p>
+              </td>
+              <td>
+                <p>
+                  <span>−</span>
+                </p>
+              </td>
+              <td>
+                <p>50</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>D</p>
+              </td>
+              <td>
+                <p>
+                  <span>−</span>
+                </p>
+              </td>
+              <td>
+                <p>
+                  <span>−</span>
+                </p>
+              </td>
+              <td>
+                <p>
+                  <span>−</span>
+                </p>
+              </td>
+              <td>
+                <p>25</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>​</p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>1.00</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>.95</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>.90</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>.85</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>cannot be computed from the information given</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

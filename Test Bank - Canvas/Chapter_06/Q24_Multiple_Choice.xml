@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item24" title="Maria is constructing an index from a range of four responses to a question about job satisfaction. She asks your advice about how to weight the responses toward a score on job satisfaction. Which of the following would be the best advice?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Maria is constructing an index from a range of four responses to a question about job satisfaction. She asks your advice about how to weight the responses toward a score on job satisfaction. Which of the following would be the best advice?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Maria should weight the answers with the most responses the most heavily.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Maria should weight the extreme cases higher than those in the middle.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Maria should weight the cases in the middle higher than those on the extremes.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Maria should weight each answer equally unless there’s a compelling reason not to.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>There is no general rule of thumb to give Maria.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item17" title="Pregnant at age 15, Tammy decided to have her baby. Her parents were upset with her decision and threatened to &quot;cut her off&quot; if she did not complete high school. A difficult pregnancy and embarrassment resulted in Tammy dropping out of school. After the ba" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Pregnant at age 15, Tammy decided to have her baby. Her parents were upset with her decision and threatened to "cut her off" if she did not complete high school. A difficult pregnancy and embarrassment resulted in Tammy dropping out of school. After the baby was born, her parents said that they would raise the baby but that she would have to leave the house. At age 16, Tammy was on her own and without any money or job market skills. She began to work as a prostitute. This explanation of Tammy's prostitution is</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>idiographic.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>nomothetic.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>probabilistic.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>quantitative.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>based on agreements.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

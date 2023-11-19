@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item21" title="Jeremy includes items that measure sexism in his index of gender roles. He does this because he believes the two variables are empirically related. As a methodology student, you should tell Jeremy that:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Jeremy includes items that measure sexism in his index of gender roles. He does this because he believes the two variables are empirically related. As a methodology student, you should tell Jeremy that:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>it's a great idea, and he should do it.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>if he includes both the variables in his index he is violating concerns about the general or specific dimensions of an index.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>if he includes both the variables in his index he needs to examine the bivariate correlations between them to be sure they are empirically correlated.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>if he includes both the variables in his index he is violating the criteria specifying the need for unidimensionality in index construction.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>it’s a great idea as long as the bivariate correlations among the variables exceed 0.9.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="To examine the social interactions of online role-playing gamers, a relatively social phenomena, Kyoko developed a rough outline of what to look for before setting out on observation. This outline was intended to guide, but not specifically structure the o" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>To examine the social interactions of online role-playing gamers, a relatively social phenomena, Kyoko developed a rough outline of what to look for before setting out on observation. This outline was intended to guide, but not specifically structure the observations. Which approach did Kyoko use?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Ethnomethodology</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Grounded theory</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Case study</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>The extended case method</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Participatory action approach</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

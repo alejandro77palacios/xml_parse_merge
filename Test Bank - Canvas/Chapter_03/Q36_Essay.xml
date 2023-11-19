@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item36" title="Please read the May 15, 2006, article entitled &amp;quot;Research Fraud Is Harmless and Easy—Until It's Not&amp;quot; on the Institute for Global Ethics site at:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string" />
+  <itemBody>
+    <extendedTextInteraction responseIdentifier="RESPONSE" expectedLength="500">
+      <prompt>
+        <span>Please read the May 15, 2006, article entitled "Research Fraud Is Harmless and Easy—Until It's Not" on the Institute for Global Ethics site at: <span><a href="http://www.globalethics.org/newsline/2006/05/15/">http://www.globalethics.org/newsline/2006/05/15/</a></span></span>
+        <p>​</p>
+        <p>
+          <span>What, if any, ethical standards does this commentary raise in terms of protecting human subjects? What did you think of the concluding statement, "Every researcher in every endeavor needs to remember that big lies start small and start easy"?</span>
+        </p>
+      </prompt>
+    </extendedTextInteraction>
+  </itemBody>
+</assessmentItem>

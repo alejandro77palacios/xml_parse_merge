@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item3" title="A new law has been enacted increasing the penalty for drunk driving in order to reduce the number of alcohol-related traffic fatalities. The number of fatalities one year before and after the law was enacted is measured, as well as a count of the number of" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>A new law has been enacted increasing the penalty for drunk driving in order to reduce the number of alcohol-related traffic fatalities. The number of fatalities one year before and after the law was enacted is measured, as well as a count of the number of high-profile accidents. The experimental stimulus in this project would be:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>the new law.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>the rate of traffic fatalities before the law began.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>the number of traffic fatalities after the law was enacted.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>the number of arrests for driving under the influence after the law began.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>the number of high-profile traffic accidents.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

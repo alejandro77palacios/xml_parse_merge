@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item23" title="Which of the following is a political objection to Stanley Milgram’s research, rather than an ethical one?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following is a political objection to Stanley Milgram’s research, rather than an ethical one?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The study had negative effects on the subjects of the study.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>The use of electrical shock had negative effects on the “pupils” in the study.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>The results of Milgram’s study could be misused to make people more obedient.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>The results of Milgram’s study could not be replicated.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>The subjects of Milgram’s study were not appropriately debriefed at the end.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

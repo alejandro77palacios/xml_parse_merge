@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item18" title="Forrester found a strong positive relationship between participation in high school extracurricular activities and community involvement as adults. He controlled for amount of college and the relationship between high school extracurricular activities and " adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Forrester found a strong positive relationship between participation in high school extracurricular activities and community involvement as adults. He controlled for amount of college and the relationship between high school extracurricular activities and community involvement was negative for low college attainment, nonexistent for medium college attainment, and positive for high college attainment. Which type of elaboration analysis is this?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>replication</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>explanation</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>interpretation</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>specification</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>extension</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

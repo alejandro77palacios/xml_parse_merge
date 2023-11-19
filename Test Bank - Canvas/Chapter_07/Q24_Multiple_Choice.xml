@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item24" title="Tammy wants to do a telephone survey and she turns to you for help. Which of the following statements would mislead her?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Tammy wants to do a telephone survey and she turns to you for help. Which of the following statements would mislead her?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Cell phone numbers are typically not included in phone surveys.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>People who use cell phones exclusively tend to be younger.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>There is a class bias in using telephone directory samples.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Telephone directories are an excellent listing of a city’s population.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Unlisted numbers are not included in telephone directories.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

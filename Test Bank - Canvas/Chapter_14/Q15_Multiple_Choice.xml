@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item15" title="A friend showed you the following table:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>A friend showed you the following table:</span>
+        <p>​</p>
+        <p>Total Arrests in Orlando in 2005 by Type of Crime and Sex</p>
+        <p>​</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <p>​</p>
+              </td>
+              <td colspan="2">
+                <p>SEX</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>TYPE OF CRIME</p>
+              </td>
+              <td>
+                <p>MALE</p>
+              </td>
+              <td>
+                <p>FEMALE</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Violent</p>
+              </td>
+              <td>
+                <p>20%</p>
+              </td>
+              <td>
+                <p>30%</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Property</p>
+              </td>
+              <td>
+                <p>80%</p>
+              </td>
+              <td>
+                <p>70%</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Total</p>
+              </td>
+              <td>
+                <p>100%</p>
+              </td>
+              <td>
+                <p>100%</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>​</p>
+              </td>
+              <td>
+                <p>(800)</p>
+              </td>
+              <td>
+                <p>(400)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>No answer =</p>
+              </td>
+              <td>
+                <p>(20)</p>
+              </td>
+              <td>
+                <p>(20)</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>​</p>
+        <p>What guideline in table construction does this table violate?</p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Tables should have a succinct heading.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>The attributes of each variable should be clearly indicated.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>The base for percentages should be included in the table.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>The number of missing cases should be indicated in the table.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>The table doesn’t violate any guidelines.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

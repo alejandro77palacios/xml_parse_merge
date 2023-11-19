@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item6" title="Professor Milne was preparing to do qualitative interviewing in a field research project. Milne knew that you were a research methods student and asked for your advice. You told Milne:" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Professor Milne was preparing to do qualitative interviewing in a field research project. Milne knew that you were a research methods student and asked for your advice. You told Milne:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>try not to alter the specific wording of questions.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>try to use the same probes with the same wording for each respondent.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>try not to alter the sequence of questions.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>be sure to think up interesting things to say when the conversation lulls.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>to begin with a search of the literature.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

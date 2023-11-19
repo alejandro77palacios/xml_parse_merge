@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item12" title="Which of the following would constitute a “natural” experiment?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following would constitute a “natural” experiment?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Conducting a survey of city park workers regarding their job satisfaction</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Doing a comparative analysis of families that choose to stay and those that choose to move out of a racially changing neighborhood</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Evaluating a drug courts program on drug user relapses</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Presenting half of a classroom with a documentary on discrimination, then measuring student opinions on race</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Soliciting teenagers at a mall to view a pickup commercial and discuss their impressions</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

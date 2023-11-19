@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item24" title="Hakeem wants to study the way that people interact in the MMORPG (massively multiplayer online role playing game) World of Warcraft. He has started collecting data on players he has encountered and on his group of friends who play together. He comes to you" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Hakeem wants to study the way that people interact in the MMORPG (massively multiplayer online role playing game) World of Warcraft. He has started collecting data on players he has encountered and on his group of friends who play together. He comes to you for advice about how to ensure that his study is ethical. Based on what he has told you so far, which of the following is the best advice?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Hakeem needs to seek informed consent from the players that he is studying before he conducts his research.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Hakeem’s research is highly likely to harm participants, so he needs to rethink his study design.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>It may be difficult to maintain anonymity online, so Hakeem needs to plan for that.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Hakeem doesn’t need to make any adjustments to his study; it’s already abiding by all ethical guidelines.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Hakeem may not know the real names of any of his subjects, which may cause an ethical issue if he needs to contact them.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

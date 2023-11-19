@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item10" title="You are planning a study on whether a course on study skills will improve the test scores of high school students. You selected two high schools where the children appear similar in terms of IQ scores, family income, family religion, and the like. You matc" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>You are planning a study on whether a course on study skills will improve the test scores of high school students. You selected two high schools where the children appear similar in terms of IQ scores, family income, family religion, and the like. You match two classes from each grade (9 to 12) from each high school. In one high school you plan to offer a course on study skills in the selected classes and in the other high school you plan to have students follow their "normal" curriculum. What kind of study are you conducting?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>needs assessment study</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>monitoring study</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>nonequivalent control group study</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>outcomes assessment study</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>time-series study</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

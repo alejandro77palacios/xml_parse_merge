@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item1" title="Which of the following is NOT a function of theory for research?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following is NOT a function of theory for research?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Theory helps to prevent our being taken in by flukes.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Theory helps to gloss over any shortcomings in research findings.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Theory helps us to make sense out of observed patterns.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Theory shapes and directs research efforts.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Theory helps us to explain occurrences.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item20" title="Which of the following is NOT a purpose of the literature review?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Which of the following is NOT a purpose of the literature review?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>To situate your work within the body of knowledge about your subject.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>To identify any factors or gaps in knowledge that may have been overlooked in previous research.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>To provide a comprehensive bibliography of all the work done on your topic.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>To point to general agreements and disagreements between other researchers in your field.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>To show why your work has value as a contribution to the literature.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

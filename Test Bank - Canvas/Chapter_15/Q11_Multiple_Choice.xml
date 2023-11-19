@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item11" title="Caitlin studied the relationship between gender and adjustment to retirement. She controlled for type of job before retirement and set up tables relating gender to retirement adjustment for each of her three categories of job type before retirement. The re" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C3</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Caitlin studied the relationship between gender and adjustment to retirement. She controlled for type of job before retirement and set up tables relating gender to retirement adjustment for each of her three categories of job type before retirement. The relationships displayed in these tables are known as:</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>test relationships.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>zero-order relationships.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>primary relationships.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>partial relationships.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>extensive relationships.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

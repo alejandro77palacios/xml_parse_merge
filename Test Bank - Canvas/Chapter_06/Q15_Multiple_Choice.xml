@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item15" title="The following items measure the extent to which Americans are willing to associate with extraterrestrials." adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C1</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>The following items measure the extent to which Americans are willing to associate with extraterrestrials.</span>
+        <ol>
+          <li>It's OK if my child marries an extraterrestrial.</li>
+          <li>It's OK to have an extraterrestrial for a friend.</li>
+          <li>It's OK to have an extraterrestrial living on the block.</li>
+          <li>It's OK to have an extraterrestrial living in my state.</li>
+        </ol>
+        <p>These items illustrate a:</p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Guttman scale</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Bogardus social distance scale</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Thurstone scale</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Likert scale</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Semantic differential scale</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

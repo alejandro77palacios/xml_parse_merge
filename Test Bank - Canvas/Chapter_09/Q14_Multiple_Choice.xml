@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item14" title="Working with a very limited budget, Professor Jenner undertook a national survey of 3,000 households. Jenner felt that the topic under investigation would produce a low response rate. What advice would you give Jenner?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>Working with a very limited budget, Professor Jenner undertook a national survey of 3,000 households. Jenner felt that the topic under investigation would produce a low response rate. What advice would you give Jenner?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Use postage stamps for both the outgoing and the return mail.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Use postage stamps for the outgoing mail and business reply permits for the return mail.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>Use bulk rate for the outgoing mail and business reply for the return mail.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Use bulk rate for the outgoing mail and postage stamps for the return mail.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>Use bulk rate for both the outgoing and the return mail.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

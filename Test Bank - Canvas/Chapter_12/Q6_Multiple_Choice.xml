@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item6" title="A friend of yours was asked to evaluate the effect of an advertising campaign designed to get people to have their blood pressure checked. After examining the records kept in the target area, your friend showed you the following graph where X indicates an" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>A friend of yours was asked to evaluate the effect of an advertising campaign designed to get people to have their blood pressure checked. After examining the records kept in the target area, your friend showed you the following graph where X indicates an observation.</span>
+        <p>​</p>
+        <p>
+          <img alt="" src="media_7d1d5b3c_625b_46e5_8923_201d4a8376ee.PNG" />
+        </p>
+        <p>​</p>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>The ad campaign is producing the intended effect.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>The independent variable, the campaign, is affecting the dependent variable, the percent having their blood pressure checked.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>More observations are needed to determine whether the independent variable is having the intended effect.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>The ad campaign has no effect.</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>The independent variable, the campaign, is not affecting the dependent variable, the percent having their blood pressure checked.</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

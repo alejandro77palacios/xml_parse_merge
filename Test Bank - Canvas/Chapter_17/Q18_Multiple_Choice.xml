@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="test-item18" title="While conducting a literature review, Amira focused on the theoretical orientation of a research report from Gender &amp; Society. Which of the following questions would be the LEAST helpful in understanding the theoretical orientation of the article?" adaptive="false" timeDependent="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value>C2</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="integer" />
+  <itemBody>
+    <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+      <prompt>
+        <span>While conducting a literature review, Amira focused on the theoretical orientation of a research report from <em>Gender &amp; Society.</em> Which of the following questions would be the LEAST helpful in understanding the theoretical orientation of the article?</span>
+      </prompt>
+      <simpleChoice identifier="C0">
+        <span>Is the methodology used appropriate for the theoretical issues involved?</span>
+      </simpleChoice>
+      <simpleChoice identifier="C1">
+        <span>Is the author attempting to refute a paradigm or theory?</span>
+      </simpleChoice>
+      <simpleChoice identifier="C2">
+        <span>What are the names of the concepts under study?</span>
+      </simpleChoice>
+      <simpleChoice identifier="C3">
+        <span>Is a theory or hypothesis being tested?</span>
+      </simpleChoice>
+      <simpleChoice identifier="C4">
+        <span>How has the theoretical orientation shaped the methodology?</span>
+      </simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE" />
+          <correct identifier="RESPONSE" />
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">1</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+      <responseElse>
+        <setOutcomeValue identifier="SCORE">
+          <baseValue baseType="integer">0</baseValue>
+        </setOutcomeValue>
+      </responseElse>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>
